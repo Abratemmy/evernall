@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/evernall/static/css/main.95db7ac1.chunk.css",
+    "main.js": "/evernall/static/js/main.8cea03d5.chunk.js",
+    "main.js.map": "/evernall/static/js/main.8cea03d5.chunk.js.map",
+    "runtime-main.js": "/evernall/static/js/runtime-main.cbd964ee.js",
+    "runtime-main.js.map": "/evernall/static/js/runtime-main.cbd964ee.js.map",
+    "static/css/2.579b7688.chunk.css": "/evernall/static/css/2.579b7688.chunk.css",
+    "static/js/2.2d14413f.chunk.js": "/evernall/static/js/2.2d14413f.chunk.js",
+    "static/js/2.2d14413f.chunk.js.map": "/evernall/static/js/2.2d14413f.chunk.js.map",
+    "index.html": "/evernall/index.html",
+    "precache-manifest.d3235732a9117809fab3434a60bee5b8.js": "/evernall/precache-manifest.d3235732a9117809fab3434a60bee5b8.js",
+    "service-worker.js": "/evernall/service-worker.js",
+    "static/css/2.579b7688.chunk.css.map": "/evernall/static/css/2.579b7688.chunk.css.map",
+    "static/css/main.95db7ac1.chunk.css.map": "/evernall/static/css/main.95db7ac1.chunk.css.map",
+    "static/js/2.2d14413f.chunk.js.LICENSE.txt": "/evernall/static/js/2.2d14413f.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/evernall/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbd964ee.js",
+    "static/css/2.579b7688.chunk.css",
+    "static/js/2.2d14413f.chunk.js",
+    "static/css/main.95db7ac1.chunk.css",
+    "static/js/main.8cea03d5.chunk.js"
+  ]
+}
