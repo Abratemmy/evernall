@@ -7,7 +7,7 @@ import Home1 from '../pages/homepage/home1.js';
 
 const Router = ()=>(
     <Switch>
-        <Route exact path = '/evernal' component = {Home1} />
+        <Route exact path = '/evernall' component = {Home1} />
         <Route exact path = '/home' component = {Home} />
         <Route exact path ='/about' component={About} />
         <Route exact path ='/contact' component={Contact} />
