@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './components/navigation/navigation';
+import Router from './components/router';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Footer from './components/footer/footer';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
+const App = () =>{
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+}, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Router />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,196 @@
+
+.header-text{
+    padding: 20px 50px 50px 50px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.background-image1{
+    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594126391/Consulting/conback3_rkglrk.png");
+}
+.background-image2{
+    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594126399/Consulting/conback2_agyfwb.png");
+}
+.background-image3{
+    background: -webkit-linear-gradient(to left, #ccbcbc, #eed4d4, #e9e8e8);
+     background: linear-gradient(to left, #cac0bf, #d8d0d0, #ada7ab);
+    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594295865/Consulting/wearethere_rlvhvp.jpg");
+}
+.background-pictures{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.background-text p{
+    font-size: 21px;
+    font-weight: 300;
+    color: rgb(78, 78, 78);
+    letter-spacing: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 20px 0px;
+    /* min-height: 61px;
+    max-height: 61px; */
+}
+
+.background-text{
+    text-align: inherit;
+    padding-top: 170px;
+}
+.header-text{
+    padding-top: 60px;
+    line-height: 50px;
+}
+.practice-area-items{
+   padding: 20px 0px 20px 0px;
+   border: 1px solid rgb(248, 226, 188);
+   margin-bottom: 10px;
+   height: 300px;
+}
+.practice-area-items:hover{
+    background-color: rgb(219, 178, 107);
+}
+.practice-area-items:hover .practice-area-title{
+    color: rgb(105, 76, 26);
+}
+.practice-area-items:hover .practice-area-text{
+    opacity: 1;
+    color: white;
+    z-index: 100;
+}
+.practice-logo{
+    font-size: 55px;
+    color: rgb(105, 76, 26);
+}
+.practice-area-logo{
+    padding: 30px 0px 10px 0px;
+}
+.practice-area-title{
+    color: #000;
+    font-family: 'Lustria', serif;
+    font-size: 20px !important;
+}
+.practice-area-text{
+    color: rgb(78, 78, 78);
+    padding: 15px 0px 15px 0px;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* css for emergency calls */
+.emergency-calls{
+    background-color: rgb(105, 76, 26);
+}
+.emergency-call{
+    font-size: 25px;
+    padding: 45px 0px 45px 0px;
+    color: rgb(228, 222, 222);
+    font-family: 'Lustria', serif;
+}
+.emergency-span{
+    color:rgb(228, 222, 222);
+}
+.emergency-span:hover{
+    color: rgb(173, 168, 168);
+    font-size: 27px;
+}
+
+/* another section starts here we are there for you section */
+.we-are-there{
+    padding-top: 8%;
+}
+.we-are-there-pic{
+    border-radius: 20px;
+}
+
+/* another section starts here what-clients says starts here */
+.what-client-says{
+    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594297119/Consulting/clientsays_cozvxn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.slick-slide img{
+    display: block;
+    text-align: center;
+}
+/* .whatclientsaysdiv img{
+    text-align: center;
+    display: block;
+} */
+.whatclientsaysdiv{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    left: 42%;
+}
+.whatclientsaysdiv .whatClientsaysPic{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.whatclientsaysrow h4{
+    font-size: 25px!important;
+    padding-top: 25px !important;
+}
+.whatclientsaysrow  p{
+  padding: 12px 18% 13px 18%;
+}
+/* css for homepage blog */
+.blog-card-img{
+    height: 170px;
+    width: 100%;
+}
+.blog-card-body .card-subtitle{
+    padding-top: 30px;
+    color:rgb(143, 118, 74);
+
+}
+.blog-card-body .card-title{
+    padding: 10px 0px 0px 0px;
+    color: #000;
+    font-family: 'Lustria', serif;
+    font-size: 20px !important;
+}
+.blog-card-body .card-title:hover{
+    color: rgb(105, 76, 26);
+}
+.blog-card-body p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.blog-card-link{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.blog-link{
+    display: inline-block;
+    color: #000;
+    position: relative;
+    top:-10px;
+}
+.blog-link:hover .blog-card-link{
+    padding-right: 0px;
+    text-decoration: none;
+}
+.blog-link:hover .blog-card-link, .blog-link:hover .blog-link-icon{
+    color: rgb(105, 76, 26);
+    transition: all 1s;
+}
+.blog-link-span{
+    font-size: 20px;
+    color:#000;
+}
+.ahref{
+    color: black;
+}
+.blog-card-hr{
+    border-top: 2px solid rgb(105, 76, 26);
+    width: 30%;
+    position: relative;
+    top: -10px;
+}
