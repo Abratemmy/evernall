@@ -9,7 +9,7 @@ export class Footer extends Component {
             <div className="footer">
                 <div className="container footer-container">
                     <div className="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 footer-column">
+                        <div className="col-lg-3 col-md-3 col-sm-12 footer-column">
                             <div className="footer-title">Evernall</div>
                             <hr className="footer-hr"/>
                             <p>Facilis ipsum reprehenderit nemo molestias. 
@@ -17,7 +17,7 @@ export class Footer extends Component {
                             </p>    
                         </div>
 
-                        <div class="col-lg-2 col-md-3 col-sm-12 offset-sm-1 footer-column">
+                        <div className="col-lg-2 col-md-3 col-sm-12 offset-sm-1 footer-column">
                             <div className="footer-title">Navigation</div>
                             <hr className="footer-hr"/>
                             <p>
@@ -30,17 +30,17 @@ export class Footer extends Component {
                             </p>    
                         </div>
 
-                        <div class="col-lg- col-md-3 col-sm-12  footer-column">
+                        <div className="col-lg- col-md-3 col-sm-12  footer-column">
                             <div className="footer-title">Contact Information</div>
                             <hr className="footer-hr"/>
                             <p>
                                 <h6>Lekki-Ajah express road, Lagos State</h6>
-                                <div>+234 807 8793 832</div>
-                                <div>info@evernall.com</div>
+                                <>+234 807 8793 832</>
+                                <>info@evernall.com</>
                             </p>    
                         </div>
 
-                        <div class="col-lg-3 col-md-3 col-sm-12  footer-column">
+                        <div className="col-lg-3 col-md-3 col-sm-12  footer-column">
                             <div className="footer-title">Emergency Contact</div>
                             <hr className="footer-hr"/>
                             <p>
