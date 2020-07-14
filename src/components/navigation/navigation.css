@@ -7,24 +7,22 @@
     z-index: 100;
     overflow: 100% !important;
 }
+.logo{
+    width: 25%;
+}
 
 .scrolled{
     position: fixed;
-    background-color:rgb(105, 76, 26);
-    overflow: 100% !important;
+    /* background-color:rgb(240, 240, 240); */
+    box-shadow: 0px 15px 10px -15px #150365;
 }
 
 .navbar{
     width:100%;
     padding-bottom: 10px;
-    /* padding: 5px 0px 0px 0px !important; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
-}
-.navbar .logo{
-    /* padding: 15px 0; */
-    /* padding-bottom: 50px; */
 }
 .navbar ul{
     list-style: none;
@@ -32,18 +30,17 @@
     flex-flow: row nowrap;
 }
 .navbar ul li{
-    padding:18px 20px 10px 0px;
+    padding: 24px 5px 0px 0px;
     font-family: 'Lustria', serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 24px;
 }
 .nav-link{
-    color:#150365;
+    color:#649200;
     font-weight: bold;
 }
 .nav-link:hover{
-    color: rgb(228, 211, 181);
+    color: #150365;
     font-weight: bold;
 }
 /* css for the burger */
@@ -51,7 +48,7 @@
     width: 2rem;
     height: 2rem;
     position: fixed;
-    top: 15px;
+    top: 40px !important;
     right: 20px;display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;

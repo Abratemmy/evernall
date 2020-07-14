@@ -25,8 +25,8 @@
 }
 .background-text p{
     font-size: 21px;
-    font-weight: 300;
-    color: rgb(78, 78, 78);
+    font-weight: 700;
+    color: #1d2951;
     letter-spacing: 0px;
     font-family: 'Open Sans', sans-serif;
     padding: 0px 0px 20px 0px;
@@ -44,15 +44,16 @@
 }
 .practice-area-items{
    padding: 20px 0px 20px 0px;
-   border: 1px solid rgb(248, 226, 188);
+   border: 1px solid #1d2951;
    margin-bottom: 10px;
    height: 300px;
 }
 .practice-area-items:hover{
-    background-color: rgb(219, 178, 107);
+    background-color: #425a0d;
 }
 .practice-area-items:hover .practice-area-title{
-    color: rgb(105, 76, 26);
+    color:#1d2951 ;
+    font-weight: bold;
 }
 .practice-area-items:hover .practice-area-text{
     opacity: 1;
@@ -61,13 +62,13 @@
 }
 .practice-logo{
     font-size: 55px;
-    color: rgb(105, 76, 26);
+    color: #1d2951;
 }
 .practice-area-logo{
     padding: 30px 0px 10px 0px;
 }
 .practice-area-title{
-    color: #000;
+    color: #1d2951;
     font-family: 'Lustria', serif;
     font-size: 20px !important;
 }
@@ -79,20 +80,22 @@
 }
 /* css for emergency calls */
 .emergency-calls{
-    background-color: rgb(105, 76, 26);
+    background-color: #1d2951; 
 }
 .emergency-call{
     font-size: 25px;
     padding: 45px 0px 45px 0px;
-    color: rgb(228, 222, 222);
+    color: #53691e;
     font-family: 'Lustria', serif;
 }
 .emergency-span{
     color:rgb(228, 222, 222);
+    padding-left: 20px;
 }
 .emergency-span:hover{
     color: rgb(173, 168, 168);
     font-size: 27px;
+   
 }
 
 /* another section starts here we are there for you section */
@@ -161,7 +164,7 @@
     padding-top: 5px;
 }
 .blog-card-link{
-    color: #000;
+    color:#030e35;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -169,7 +172,7 @@
 }
 .blog-link{
     display: inline-block;
-    color: #000;
+    color: #030e35;
     position: relative;
     top:-10px;
 }
@@ -189,7 +192,7 @@
     color: black;
 }
 .blog-card-hr{
-    border-top: 2px solid rgb(105, 76, 26);
+    border-top: 2px solid #53691e;
     width: 30%;
     position: relative;
     top: -10px;

@@ -1,0 +1,12 @@
+.about-background{
+    background:url("https://res.cloudinary.com/aitechma/image/upload/v1594650553/Consulting/pagesback_ffjbuo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 450px; 
+}
+.otherpages-title{
+    padding-top: 190px;
+    transition: 1s ;
+}

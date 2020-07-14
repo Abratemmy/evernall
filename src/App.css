@@ -17,21 +17,26 @@ h1{
 font-size: 70px !important;
 line-height: 90px;
 font-weight: bold;
-color: rgb(105, 76, 26);
+color: #425a0d;
 letter-spacing: 0px;
 font-family:'Lustria', serif;
 }
 h3{
-  color: #000;
+  color: rgba(9, 9, 26, 0.904);
   font-family: 'Lustria', serif;
   font-size: 50px !important;
 }
 h4{
-  color: #000;
-  font-family: Lustria,serif;
-  font-weight: 400;
-  font-size: 35px !important;
+  color: #0b1433;
+  font-family: 'Lustria',serif;
+  font-weight: bold;
+  font-size: 30px !important;
 }
+/* h5{
+  color: #131b38;
+  font-family: Lustria,serif;
+  font-weight: 900;
+} */
 p{
   padding: 15px 0px 15px 0px;
   font-size: 19px;
@@ -46,7 +51,7 @@ margin-bottom: 20px !important;
 
 .button-primary{
   color: white;
-  background-color: rgb(105, 76, 26);
+  background-color: #425a0d;
   padding: 10px 30px 10px 30px!important;
   text-transform: uppercase;
   border-radius: 20px;
@@ -63,7 +68,7 @@ margin-bottom: 20px !important;
   border: none;
 }
 .header-text-hr{
-  border-top: 2px solid rgb(105, 76, 26);
+  border-top: 2px solid #649200;
   max-width: 15%;
   position: relative;
   top: -30px;

@@ -68,9 +68,9 @@ export class Home1 extends Component {
 
                {/* another section starts here */}
 
-               <div className="container-fluid" style={{paddingBottom:'30px'}}>
+               <div className="container-fluid" style={{paddingBottom:'70px'}}>
                    <div className="container">
-                       <h3 className="header-text text-center"> Practice Area</h3>
+                       <h3 className="header-text text-center"> Services</h3>
                        <hr className="header-text-hr" />
 
                         <div className="row " >
@@ -82,21 +82,21 @@ export class Home1 extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiBankLine className="practice-logo"/></div>
                                     <div className="practice-area-title">Domestics Violence</div>
                                     <div className="practice-area-text">Don’t be scared to step out. Contact our law team. </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiCriminalLine className="practice-logo"/></div>
                                     <div className="practice-area-title">Federal Crimes</div>
                                     <div className="practice-area-text">Meet the best experts in the federal crimes field. </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><TiDeviceLaptop className="practice-logo"/></div>
                                     <div className="practice-area-title">Security Law</div>

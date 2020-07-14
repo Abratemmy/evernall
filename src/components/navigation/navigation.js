@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './navigation.css';
 import Burger from './burger';
+import { NavLink } from 'react-router-dom';
 
 export class Navigation extends Component {
     constructor(){
@@ -29,8 +30,8 @@ export class Navigation extends Component {
             <div className={this.state.scrolled ?'nav scrolled': 'nav'}>
             <div className="navbar container">
                <div className="logo">
-                   <img src = "https://res.cloudinary.com/aitechma/image/upload/v1594641593/Consulting/evernallogo_nxyc4j.jpg" 
-                   alt="hi" width="40%" height="60" />
+                   <NavLink to ='/evernall'><img src = "https://res.cloudinary.com/aitechma/image/upload/v1594653204/Consulting/evernall_logo_kqv2lx.jpg" 
+                   alt="evernall logo" width="100%" height="50" className="img-logo"/></NavLink> 
                </div>
 
                 <Burger />
