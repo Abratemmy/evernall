@@ -1,12 +1,37 @@
-.about-background{
-    background:url("https://res.cloudinary.com/aitechma/image/upload/v1594650553/Consulting/pagesback_ffjbuo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 450px; 
+
+.what-we-stand-for-col{
+    padding: 20px 0px 40px 0px ;
 }
-.otherpages-title{
-    padding-top: 190px;
-    transition: 1s ;
+.what-we-stand-for-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color:#425a0d;
+    line-height: 35px;
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+.aboutpics{
+    overflow: hidden !important;
+    width: 100%;
+}
+.aboutpiccol{
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+}
+.about-row{
+    padding: 5px 0px 50px 0px;
+}
+.legal-solution-title{
+    padding: 20px 0px 20px 0px;
+    font-size: 23px;
+    font-family: 'Lustria',serif;
+    color:#649200;
+    font-weight: bold;
+}
+.legal-solution-text{
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
 }

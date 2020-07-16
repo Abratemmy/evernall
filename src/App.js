@@ -13,6 +13,7 @@ const App = () =>{
   useEffect(() =>{
     Aos.init({duration: 1500});
 }, []);
+
   return (
     <div className="App">
       <Navigation />

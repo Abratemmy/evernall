@@ -35,7 +35,7 @@ export class Footer extends Component {
                             <hr className="footer-hr"/>
                             <p>
                                 <h6>Lekki-Ajah express road, Lagos State</h6>
-                                <>+234 807 8793 832</>
+                                <div>+234 807 8793 832</div>
                                 <>info@evernall.com</>
                             </p>    
                         </div>
@@ -56,7 +56,7 @@ export class Footer extends Component {
                     </div>
 
                     <div className="copyright text-center">
-                        &copy; Evernall Nigeria 2020, designed by <span className="abraolas">Abrolas Info-Tech Nigeria</span>  
+                        &copy; Evernall Nigeria 2020, designed by <span className="abraolas">Abraolas Info-Tech Nigeria</span>  
                     </div>
                     <div className="footer-social text-center">
                         <ul>

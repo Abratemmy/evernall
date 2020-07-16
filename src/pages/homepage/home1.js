@@ -7,6 +7,7 @@ import { RiBankLine, RiCriminalLine} from "react-icons/ri";
 import {TiDeviceLaptop} from "react-icons/ti"
 import {AiOutlineInsertRowRight} from "react-icons/ai";
 import {BsArrowRight} from "react-icons/bs";
+import Testimony from '../../components/testimony';
 
 export class Home1 extends Component {
     componentDidMount(){
@@ -24,20 +25,6 @@ export class Home1 extends Component {
             slidesToShow: 1,
             slidesToScroll: 1
           };
-
-        const testimony = {
-            // arrows: true,
-            dots: true,
-            // centerMode: true,
-            // adaptiveHeight: true,
-            infinite: true,
-            autoplay: true,
-            speed: 6000,
-            autoplaySpeed: 6000,
-            slidesToShow: 1,
-            slidesToScroll: 1
-            
-        }
         return (
             <div>
                <Slider {...settings} className="Slider">
@@ -45,7 +32,7 @@ export class Home1 extends Component {
                        <div className="animated slideInDown background-text container" style={{animationDelay:'1s'}} >
                             <h1 className="">Devoted to Justice</h1>
                             <p>Do the right things the right way</p>
-                            <NavLink to ="/contact" className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
                        </div>      
                    </div>
 
@@ -53,7 +40,7 @@ export class Home1 extends Component {
                        <div className= "wow animate__slideInDown background-text container" style={{animationDelay: '10s'}}>
                             <h1 className="">Led by the Truth</h1>
                             <p>Find the support that you need when fighting for your right</p>
-                            <NavLink to ="/contact" className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
                         </div>
                     </div>
 
@@ -61,7 +48,7 @@ export class Home1 extends Component {
                         <div className= "wow animate__slideInDown background-text container" style={{animationDelay: '20s'}}>
                             <h1 className="">Inspired by Right</h1>
                             <p>We strongly believe that everyone desrves equal rights. That's why we put our clients first on our way to justice and truth.</p>
-                            <NavLink to ="/contact" className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
                         </div>
                    </div>
                </Slider>
@@ -74,7 +61,7 @@ export class Home1 extends Component {
                        <hr className="header-text-hr" />
 
                         <div className="row " >
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up"data-aos-duration="1000" data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><AiOutlineInsertRowRight className="practice-logo"/></div>
                                     <div className="practice-area-title">Employment Law</div>
@@ -82,21 +69,21 @@ export class Home1 extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up" data-aos-duration="2000"data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiBankLine className="practice-logo"/></div>
                                     <div className="practice-area-title">Domestics Violence</div>
                                     <div className="practice-area-text">Don’t be scared to step out. Contact our law team. </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up"data-aos-duration="3000"data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiCriminalLine className="practice-logo"/></div>
                                     <div className="practice-area-title">Federal Crimes</div>
                                     <div className="practice-area-text">Meet the best experts in the federal crimes field. </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up" data-aos-duration="4000" data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><TiDeviceLaptop className="practice-logo"/></div>
                                     <div className="practice-area-title">Security Law</div>
@@ -135,51 +122,9 @@ export class Home1 extends Component {
                </div>
 
                {/* another section starts here */}
-               <div className="container-fluid what-client-says text-center">
-                   <div className="container text-center">
-                    <h3 className="header-text text-center"> What are the clients says</h3>
-                    <hr className="header-text-hr" />
-                            
-                    <Slider {...testimony} className="Slider slider-whatClientsays">
-                        <div className="whatclientsaysrow " >
-                            <div className="row" >
-                                <div className="col-12 text-center whatclientsaysdiv">
-                                    <img src="https://cdn.pixabay.com/photo/2017/11/23/07/47/babe-2972221__340.jpg" alt="can't see" className="whatClientsaysPic"style={{textAlign:'center'}}/>
-                                </div>
-                            </div>    
-                            <h4>John Doe</h4>
-                            <p>
-                            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however
-                            </p>
-                        </div>
+                <Testimony />
 
-                        <div className="whatclientsaysrow ">
-                        <div className="row" >
-                                <div className="col-12 text-center whatclientsaysdiv">
-                                    <img src="https://cdn.pixabay.com/photo/2019/07/06/12/44/baby-4320396__340.jpg" alt="can't see" className="whatClientsaysPic"style={{textAlign:'center'}}/>
-                                </div>
-                            </div>    
-                            <h4>John Doe</h4>
-                            <p>
-                                “Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
-                            </p>
-                        </div>
 
-                        <div className="whatclientsaysrow ">
-                            <div className="row" >
-                                <div className="col-12 text-center whatclientsaysdiv">
-                                    <img src="https://cdn.pixabay.com/photo/2020/03/24/05/37/family-4962878__340.jpg" alt="can't see" className="whatClientsaysPic"style={{textAlign:'center'}}/>
-                                </div>
-                            </div>    
-                            <h4>John Doe</h4>
-                            <p>
-                                “Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
-                            </p>
-                        </div>                       
-                    </Slider>
-                    
-                   </div>
-               </div>
 
                {/* another section starts here activity blogs */}
                <div className="container-fluid" style={{paddingBottom:'60px'}}>

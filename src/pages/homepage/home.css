@@ -118,10 +118,7 @@
     display: block;
     text-align: center;
 }
-/* .whatclientsaysdiv img{
-    text-align: center;
-    display: block;
-} */
+
 .whatclientsaysdiv{
     display: table-cell;
     vertical-align: middle;
@@ -147,7 +144,7 @@
 }
 .blog-card-body .card-subtitle{
     padding-top: 30px;
-    color:rgb(143, 118, 74);
+    color:#53691e;
 
 }
 .blog-card-body .card-title{
@@ -157,7 +154,7 @@
     font-size: 20px !important;
 }
 .blog-card-body .card-title:hover{
-    color: rgb(105, 76, 26);
+    color: #53691e;
 }
 .blog-card-body p{
     font-size: 15px;

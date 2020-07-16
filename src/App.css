@@ -103,3 +103,19 @@ margin-bottom: 20px !important;
     text-align: center;
   }
 }
+
+.about-background{
+  background:url("https://res.cloudinary.com/aitechma/image/upload/v1594650553/Consulting/pagesback_ffjbuo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 470px; 
+  transition: 1s all ;
+  top: -100px !important;
+  /* transition: 1s linear; */
+}
+.otherpages-title{
+  padding-top: 240px;
+  transition: all 0.2s linear ;
+}

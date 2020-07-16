@@ -44,11 +44,11 @@ const Burger = () => {
             <div>
                 
                <UL open={open}>
-                   <li><NavLink to ="/evernall" className="nav-link">Home</NavLink> </li>
-                   <li><NavLink to ="/about" className="nav-link">About Us</NavLink></li>
-                   <li><NavLink to ="/practicearea" className="nav-link">Services</NavLink></li>
-                   <li><NavLink to ="/blog" className="nav-link">Blog</NavLink></li>
-                   <li><NavLink to ="/contact" className="nav-link">Contact Us</NavLink></li>
+                   <li><NavLink to ="/evernall" exact  className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Home</NavLink> </li>
+                   <li><NavLink to ="/evernall/about" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>About Us</NavLink></li>
+                   <li><NavLink to ="/evernall/service"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Services</NavLink></li>
+                   <li><NavLink to ="/evernall/blog" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
+                   <li><NavLink to ="/evernall/contact" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Contact Us</NavLink></li>
                </UL></div>
         </>
     )
