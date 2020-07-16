@@ -9,10 +9,10 @@ import Service from '../pages/service/service.js';
 const Router = ()=>(
     <Switch>
         <Route exact path = '/evernall' component = {Home1} />
-        <Route exact path = '/evernall/home' component = {Home} />
-        <Route exact path ='/evernall/about' component={About} />
-        <Route exact path ='/evernall/service' component={Service} />
-        <Route exact path ='/evernall/contact' component={Contact} />
+        <Route exact path = '/home' component = {Home} />
+        <Route exact path ='/about' component={About} />
+        <Route exact path ='/service' component={Service} />
+        <Route exact path ='/contact' component={Contact} />
         
     </Switch>
 )

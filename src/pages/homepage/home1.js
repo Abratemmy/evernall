@@ -32,7 +32,7 @@ export class Home1 extends Component {
                        <div className="animated slideInDown background-text container" style={{animationDelay:'1s'}} >
                             <h1 className="">Devoted to Justice</h1>
                             <p>Do the right things the right way</p>
-                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>
                        </div>      
                    </div>
 
@@ -40,7 +40,7 @@ export class Home1 extends Component {
                        <div className= "wow animate__slideInDown background-text container" style={{animationDelay: '10s'}}>
                             <h1 className="">Led by the Truth</h1>
                             <p>Find the support that you need when fighting for your right</p>
-                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@ export class Home1 extends Component {
                         <div className= "wow animate__slideInDown background-text container" style={{animationDelay: '20s'}}>
                             <h1 className="">Inspired by Right</h1>
                             <p>We strongly believe that everyone desrves equal rights. That's why we put our clients first on our way to justice and truth.</p>
-                            <NavLink to ="/evernall/contact" exact className="button-primary">CONTACT US</NavLink>
+                            <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>
                         </div>
                    </div>
                </Slider>
