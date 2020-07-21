@@ -84,18 +84,14 @@
 }
 .emergency-call{
     font-size: 25px;
-    padding: 45px 0px 45px 0px;
-    color: #53691e;
-    font-family: 'Lustria', serif;
+    padding: 50px 0px 50px 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
-.emergency-span{
-    color:rgb(228, 222, 222);
-    padding-left: 20px;
-}
-.emergency-span:hover{
-    color: rgb(173, 168, 168);
-    font-size: 27px;
-   
+
+.emergency-col{
+    text-align: left;
+    color: white;
 }
 
 /* another section starts here we are there for you section */

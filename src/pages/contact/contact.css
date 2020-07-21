@@ -1,0 +1,106 @@
+.contact-banner{
+    position: relative;
+    top: -40px;
+    background-color: white;
+    box-shadow:3px 3px 3px 3px #ccc;
+}
+.contact-banner-col{
+    padding: 45px 0px 45px 0px;
+}
+.contact-banner-div{
+    padding-left: 20px;
+}
+.contact-banner-title{
+    font-family: 'Lustria' serif;
+    font-size: 22px;
+    padding: 5px 0px 10px 0px;
+}
+.contact-banner-text{
+    font-family:  'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.contact-banner-text1{
+    padding-top: 15px;
+    color: #000;
+    font-size: 17px;
+}
+.contact-section{
+    padding: 50px 0px 50px 0px;
+}
+.contact-social ul{
+    display: flex;
+    word-spacing: 40px;
+}
+.contact-social ul li{
+    list-style: none;
+    font-size: 20px;
+   
+}
+.contact-Navlink1{
+    padding: 25px;
+}
+.contact-social-icons{
+    color:#425a0d;
+}
+.contact-details{
+    padding-left: 80px;
+    font-family: 'Open sans' sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.contact-details-title{
+    font-size: 30px !important;
+    padding-bottom: 10px;
+}
+.contact-form{
+    padding: 20px 40px 20px 40px;
+}
+.contact-form-title{
+    font-family: 'Lustria' serif;
+}
+.contact-details-address{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.contact-details-subtitle{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.contact-detail-span{
+    padding-bottom: 20px;
+    color:rgb(73, 72, 72);
+}
+.inputfield{
+    width: 100%;
+    height: 50px;
+    border-radius: 1px solid rgb(182, 181, 181) ;
+    margin: 15px 0px 15px 0px;
+    /* background-color: transparent; */
+}
+.textarea{
+    width: 100%;
+    margin-top: 15px;
+}
+.checkboxdiv{
+    padding: 20px 0px 20px 0px;
+}
+
+.checkbox{
+    margin-left: 12px;
+    
+}
+.contact-map-background{
+    background: url("https://res.cloudinary.com/aitechma/image/upload/v1595261562/Consulting/contactmapimage_rfbwjx.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.contact-map-title{
+    padding-top: 80px;
+    color: white;
+    font-family: 'Lustria' serif;
+    font-size: 60px;
+}

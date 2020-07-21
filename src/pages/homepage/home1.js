@@ -7,6 +7,8 @@ import { RiBankLine, RiCriminalLine} from "react-icons/ri";
 import {TiDeviceLaptop} from "react-icons/ti"
 import {AiOutlineInsertRowRight} from "react-icons/ai";
 import {BsArrowRight} from "react-icons/bs";
+import {IoIosCall} from "react-icons/io";
+import {MdEmail} from "react-icons/md";
 import Testimony from '../../components/testimony';
 
 export class Home1 extends Component {
@@ -97,8 +99,22 @@ export class Home1 extends Component {
 
                {/* another section start here */}
                <div className="emergency-calls container-fluid text-center">
-                   <div className="emergency-call">
-                       Emergency? Call us now  <span className="emergency-span">+234 807 8793 832</span>
+                   <div className="emergency-call container">
+                       {/* Emergency? Call us now  <span className="emergency-span">+234 807 8793 832</span> */}
+                       <div className="row">
+                           <div className="col-md-4 text-left" style={{fontWeight:'bold'}}>
+                                GET IN TOUCH NOW FOR YOUR FREE CONSULTATION
+                           </div>
+                           <div className="col-md-3 offset-1  emergency-col emergencycol-2">
+                               <IoIosCall className="emergency-icons" />
+                               <div className="emergency-span">+234 807 8793 832</div>
+
+                           </div>
+                           <div className="col-md-4 emergency-col">
+                                <MdEmail className="emergency-icons" />
+                                <div className="emergency-span">info@evernall.com</div>
+                           </div>
+                       </div>
                    </div>
                </div>
 

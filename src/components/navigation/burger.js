@@ -47,6 +47,7 @@ const Burger = () => {
                    <li><NavLink to ="/evernall" exact  className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Home</NavLink> </li>
                    <li><NavLink to ="/about" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>About Us</NavLink></li>
                    <li><NavLink to ="/service"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Services</NavLink></li>
+                   <li><NavLink to ="/faq"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>FAQ</NavLink></li>
                    <li><NavLink to ="/blog" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
                    <li><NavLink to ="/contact" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Contact Us</NavLink></li>
                </UL></div>
