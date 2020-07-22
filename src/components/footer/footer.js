@@ -41,7 +41,7 @@ export class Footer extends Component {
                                 <div className="footer-title">Contact Information</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
-                                    <h6>Lekki-Ajah express road, Lagos State</h6>
+                                    <h6>3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</h6>
                                     <div>+234 807 8793 832</div>
                                     <>info@evernall.com</>
                                 </div>

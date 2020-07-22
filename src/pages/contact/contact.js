@@ -4,6 +4,15 @@ import WOW from 'wowjs';
 import {NavLink} from 'react-router-dom';
 import {FaTwitter, FaInstagram, FaFacebookF} from 'react-icons/fa';
 import ReCaptcha from 'react-recaptcha';
+import {
+    InfoWindow,
+    withScriptjs,
+    withGoogleMap,
+    GoogleMap,
+    Marker,
+  } from "react-google-maps"; 
+
+  import Geocode from 'react-geocode';
 
 export class Contact extends Component {
     constructor(props, context) {
@@ -37,6 +46,23 @@ export class Contact extends Component {
         }
    }
     render() {
+       
+        const MapWithAMarker = withScriptjs(withGoogleMap(props =>
+            <GoogleMap
+              defaultZoom={15}
+              defaultCenter={{ lat: 6.451549, lng: 3.429530 }}
+            >
+              <Marker
+              draggable = {true}
+              onDragEnd = {this.onMarkerDragEnd}
+                position={{ lat: 6.451549, lng: 3.429530 }}>
+                  <InfoWindow>
+                      <div>Evernall</div>
+                  </InfoWindow>
+              </Marker>
+            </GoogleMap>
+          ));
+
         return (
             <div>
                 <div className="container-fluid about-background text-center">
@@ -48,7 +74,7 @@ export class Contact extends Component {
                         <div className="col-lg-4 col-md-4 col-sm-12 contact-banner-col">
                             <div className="contact-banner-div">
                                 <div className="contact-banner-title">Address</div>
-                                <div className="contact-banner-text">Lekki-Ajah express road, Lagos State</div>
+                                <div className="contact-banner-text">3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</div>
                                 <div className="contact-banner-text1">View on google map</div>
                             </div>
                         </div>
@@ -77,7 +103,7 @@ export class Contact extends Component {
                                 <div className="contact-details-title">
                                     <h3 className="contact-details-title">Contact Details</h3>
                                 </div>
-                                <div className="contact-details-address">Lekki-Ajah express road, Lagos State</div>
+                                <div className="contact-details-address">3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</div>
 
                                 <div className="contact-details-subtitle">Call Us Today</div>
                                 <div className="contact-detail-span"> +234 807 8793 832 </div>
@@ -121,7 +147,7 @@ export class Contact extends Component {
                                             <div className="col-md-12 checkboxdiv">    
                                                <label for="checkbox1">
                                                    <div className="row">
-                                                       <div className="col-md-0.5 col-sm-0.5"><input type="checkbox" name="checkbox"className="checkbox" /></div>
+                                                       <div className="col-md-1 col-sm-1"><input type="checkbox" name="checkbox"className="checkbox" /></div>
                                                        <div className="col-md-11 col-sm-11">
                                                        <span className="">Please tick this box to accept our privacy policy. Evernall Consultancy Ltd are committed to protecting your <span className="privacy"><NavLink to='/privacy'> privacy</NavLink> </span>  and shall only use the information you provide on this page to respond to your enquiry. 
                                                      <br />
@@ -147,9 +173,11 @@ export class Contact extends Component {
                                         />
                                         <div className="row">
                                             <div className="col-md-4"></div>
-                                            <div className="col-md-4"></div>
-                                            <div className="col-md-4 text-right">
-                                                <button type="submit" className="signUpButton" style={{marginTop:'20px', border:'none'}}>Submit</button>
+                                            <div className="col-md-4">
+                                                
+                                            </div>
+                                            <div className="col-md-4 ">
+                                                <button type="submit" className="signUpButton" style={{marginTop:'30px', border:'none'}}>Submit</button>
                                             </div>
                                         </div>
                                         
@@ -162,11 +190,16 @@ export class Contact extends Component {
                 </div>
 
                 {/* another section starts here */}
-                <div className="container-fluid contact-map-background">
+                <div className="container-fluid contact-map-background" style={{marginBottom:'16%'}}>
                     <div className="container text-center">
                         <h2 className="contact-map-title">Visit us</h2>
                         <div className="contact-map">
-                            
+                            <MapWithAMarker className="google-map"
+                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8yjOFhnwBfWEGvE2M1L8z3w4necCXIk&v=3.exp&libraries=geometry,drawing,places"
+                                loadingElement={<div style={{ height: `100%` }} />}
+                                containerElement={<div style={{ height: `500px` }} />}
+                                mapElement={<div style={{ height: `100%` }} />}
+                            />
                         </div>
                     </div>
                 </div>
