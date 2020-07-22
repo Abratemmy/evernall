@@ -174,10 +174,10 @@ export class Contact extends Component {
                                         <div className="row">
                                             <div className="col-md-4"></div>
                                             <div className="col-md-4">
-                                                
+                                             <button type="submit" className="signUpButton" style={{marginTop:'30px', border:'none'}}>Submit</button>
                                             </div>
                                             <div className="col-md-4 ">
-                                                <button type="submit" className="signUpButton" style={{marginTop:'30px', border:'none'}}>Submit</button>
+                                                
                                             </div>
                                         </div>
                                         
