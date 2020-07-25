@@ -1,33 +1,36 @@
 import React, { Component } from 'react';
 import './about.css';
-import WOW from 'wowjs';
 import Testimony from '../../components/testimony';
+import Otherpagesbg from '../otherpagesbg';
 
 
 export class About extends Component {
-    componentDidMount(){
-        const wow = new 
-        WOW.WOW();
-        wow.init();
-   }
+    
     render() {
         return (
             <div >
                 <div className="">
-                   <div className="container-fluid about-background text-center">
-                       <h1 className="otherpages-title wow animate__slideInUp"  data-wow-duration="2s">About us</h1>
-                   </div>
+                   <Otherpagesbg title="About Us" subtitle=""/>
                    
                    <div className="container">
                         <h3 className="header-text text-center"> What we do </h3>
                         <hr className="header-text-hr" />
                         <div className="what-we-stand-for-text" style={{textAlign:'justify'}} data-aos="fade-up">
-                           <span style={{color:'#030e35', fontSize:'30px'}}>Evernall</span>  is a full service law firm with the know-how to handle the 
-                            legal needs of clients in Nigeria's peculiar business environment.
-
-                            At Evernall, we cut through complexity to provide clear, precise and insightful answers. We balance the  big picture with Whatour clients need to know. we think
-                            ahead and anticipate issues before they become problems. And we apply our passion for the law and our interest in the world at large for the benefit of clients,
-                            colleagues and the wider community.
+                           <span style={{color:'#0b1433', fontSize:'20px', fontweight:'bold', fontFamily:'Lustria'}}>Evernall</span>  is a non-traditional Law Firm that provides dynamic legal solutions you need to grow your business in the present day Nigeria. From freelancing to startups,
+                            through scaling for growth and thriving, Evernall will support you in every step of the way.                         
+                        </div>
+                        <div className="row">
+                            <div className="col-md-5">
+                                <div className="what-we-stand-for-col">
+                                    <div className="what-we-stand-for-text1">Our Solutions are practical and accessible and are tailored to meet real life situation that any business may face. We are postured towards preventing risks in businesses rather than reacting to the failed outcome. With Evernall as your partner, you can do go on and succeed in your core business, 
+                                    while we make sure that you are complying to the laws of business and negotiating fair and production transactions.</div>
+                                </div>
+                            </div>
+                            <div className="col-md-2"></div>
+                            <div className="col-md-5">
+                                <div className="what-we-stand-for-text1">Our Approach is broadly twofold – We prepare our clients to be complaint with 
+                                    their processes and offer effective business legal support all year round.</div>
+                            </div>
                         </div>
                    </div>
 
@@ -44,7 +47,7 @@ export class About extends Component {
                                     These men and women have experienced success in their field, sometimes by overcoming great challenges.</div>
                                 </div> 
                             </div> 
-                            <div className="col-lg-4 text-center aboutpiccol">
+                            <div className="col-lg-4  text-center aboutpiccol">
                                 <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about3_qid1vf.jpg" alt="notseen" 
                                 width="50%" height="180" className="aboutpics"/>
                             </div>
@@ -52,16 +55,18 @@ export class About extends Component {
                     
                             {/* second paragrapg */}
                         <div className="row about-row">
-                            <h4 className="col-12 text-center">We are Innovative</h4>
-                            <div className="col-md-4 text-center aboutpiccol col-md-push-8" >
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about2_iwpsfq.jpg" 
-                                width="100%" height="180" className="aboutpics" alt="notseen" />                     
-                            </div>
-                            <div className="col-md-8  col-md-pull-3  about-col ">
+                            
+                            <div className="col-md-8  order-md-8  about-col" >
                                 <div className="">
+                                    <h4 className="col-12 ">We are Innovative</h4>
                                     <div className="what-we-stand-for-text"data-aos="fade-left">A pioneer is someone who sees potential, an innovator who is willing to try new things. A pioneer pushes boundaries to advance a cause or idea or break a record. 
                                     These men and women have experienced success in their field, sometimes by overcoming great challenges.</div>
                                 </div> 
+                                                 
+                            </div>
+                            <div className="col-md-4  order-md-4  text-center aboutpiccol ">
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about2_iwpsfq.jpg" 
+                                    width="100%" height="180" className="aboutpics" alt="notseen" />    
                             </div> 
                         </div>
                             
@@ -82,16 +87,17 @@ export class About extends Component {
                             
                             {/* fourth para */}
                         <div className="row about-row">
-                            <h4 className="col-12 text-center">We promote values</h4>
-                            <div className="col-lg-4 text-center aboutpiccol">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594811677/Consulting/about5_wifyko.jpg" alt="notseen" 
-                                    width="100%" height="180" className="aboutpics"/>
-                            </div>
-                            <div className="col-lg-8 col-md-12 col-sm-12 about-col">
+                            <div className="col-lg-8  about-col order-md-8">
+                                <h4 className="col-12">We promote values</h4>
                                 <div className="">
                                     <div className="what-we-stand-for-text"data-aos="fade-left">A pioneer is someone who sees potential, an innovator who is willing to try new things. A pioneer pushes boundaries to advance a cause or idea or break a record. 
                                     These men and women have experienced success in their field, sometimes by overcoming great challenges.</div>
-                                </div> 
+                                </div>    
+                            </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12 order-md-4 aboutpiccol">
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594811677/Consulting/about5_wifyko.jpg" alt="notseen" 
+                                    width="100%" height="180" className="aboutpics"/>
+                                
                             </div>
                         </div> 
 

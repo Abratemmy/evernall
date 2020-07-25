@@ -46,7 +46,18 @@ const Burger = () => {
                <UL open={open}>
                    <li><NavLink to ="/evernall" exact  className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Home</NavLink> </li>
                    <li><NavLink to ="/about" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>About Us</NavLink></li>
-                   <li><NavLink to ="/service"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Services</NavLink></li>
+                   <li><NavLink to ="/service"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>
+                       Services</NavLink>
+                       <div className="dropdown-content">
+                            <NavLink to="/service/corporatelegal" className="afirst">Corporate Legal Services</NavLink>
+                            <NavLink to="/service/contract_support">Legal/Contract Support Staffing</NavLink>
+                            <NavLink to="/service/contract_drafting">Contract drafting/Negotiation</NavLink>
+                            <NavLink to="/service/contract_management">Contract Management </NavLink>
+                            <NavLink to="/service/legal_compliance">Legal/Process Compliance Audit</NavLink>
+                            <NavLink to="/service/training">Training (Online and Onsite)</NavLink>
+                        </div>
+                       
+                    </li>
                    <li><NavLink to ="/faq"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>FAQ</NavLink></li>
                    <li><NavLink to ="/blog" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
                    <li><NavLink to ="/contact" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Contact Us</NavLink></li>

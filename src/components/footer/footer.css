@@ -12,7 +12,7 @@
     padding-bottom: 40px;
 }
 .signUpButton{
-    background-color: #1d2951;
+    background-color:  #0e0829;
     color: white;
     font-size: 20px;
     padding: 10px 25px 10px 25px;
@@ -30,7 +30,7 @@
 /* section2 start here */
 .footersection2{
     position: relative;
-    background-color: #1d2951;
+    background-color:  #0e0829;
     box-sizing: border-box;
     color: #d8d4d2;
     font-family: 'Open Sans', sans-serif;
@@ -55,6 +55,7 @@
     padding: 20px 0px 10px 0px;
     font-size: 17px;
     line-height: 30px;
+
 }
 .footer-column .footer-text h6{
     color:#d8d4d2;

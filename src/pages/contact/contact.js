@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './contact.css';
-import WOW from 'wowjs';
 import {NavLink} from 'react-router-dom';
 import {FaTwitter, FaInstagram, FaFacebookF} from 'react-icons/fa';
 import ReCaptcha from 'react-recaptcha';
@@ -12,7 +11,8 @@ import {
     Marker,
   } from "react-google-maps"; 
 
-  import Geocode from 'react-geocode';
+//   import Geocode from 'react-geocode';
+import Otherpagesbg from '../otherpagesbg';
 
 export class Contact extends Component {
     constructor(props, context) {
@@ -20,12 +20,7 @@ export class Contact extends Component {
         this.onLoadRecaptcha = this.onLoadRecaptcha.bind(this);
         this.verifyCallback = this.verifyCallback.bind(this);
     }
-    // componentDidMount() {
-    //     if (this.captchaDemo) {
-    //         console.log("started, just a second...")
-    //         this.captchaDemo.reset();
-    //     }
-    //   }
+ 
     onLoadRecaptcha() {
           if (this.captchaDemo) {
               this.captchaDemo.reset();
@@ -36,10 +31,6 @@ export class Contact extends Component {
         console.log(recaptchaToken, "<= your recaptcha token")
       }
     componentDidMount(){
-        const wow = new 
-        WOW.WOW();
-        wow.init();
-
         if (this.captchaDemo) {
             console.log("started, just a second...")
             this.captchaDemo.reset();
@@ -65,17 +56,15 @@ export class Contact extends Component {
 
         return (
             <div>
-                <div className="container-fluid about-background text-center">
-                    <h1 className="otherpages-title wow animate__slideInUp"  data-wow-duration="2s">Contact Us</h1>
-                </div>
-
+               <Otherpagesbg title="Contact Us" />
                 <div className="contact-banner container">
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-12 contact-banner-col">
                             <div className="contact-banner-div">
                                 <div className="contact-banner-title">Address</div>
                                 <div className="contact-banner-text">3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</div>
-                                <div className="contact-banner-text1">View on google map</div>
+                                <div className="contact-banner-text1">                                
+                                    <a href='#maps' className="contact-banner-maps"> View on google map </a></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 contact-banner-col" style={{backgroundColor:'#425a0d', color:'white'}}>
@@ -145,7 +134,7 @@ export class Contact extends Component {
                                                 ></textarea>
                                             </div>
                                             <div className="col-md-12 checkboxdiv">    
-                                               <label for="checkbox1">
+                                               <label htmlFor="checkbox1">
                                                    <div className="row">
                                                        <div className="col-md-1 col-sm-1"><input type="checkbox" name="checkbox"className="checkbox" /></div>
                                                        <div className="col-md-11 col-sm-11">
@@ -191,9 +180,9 @@ export class Contact extends Component {
 
                 {/* another section starts here */}
                 <div className="container-fluid contact-map-background" style={{marginBottom:'16%'}}>
-                    <div className="container text-center">
+                    <div className="container text-center" id="maps">
                         <h2 className="contact-map-title">Visit us</h2>
-                        <div className="contact-map">
+                        <div className="contact-map" >
                             <MapWithAMarker className="google-map"
                                 googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8yjOFhnwBfWEGvE2M1L8z3w4necCXIk&v=3.exp&libraries=geometry,drawing,places"
                                 loadingElement={<div style={{ height: `100%` }} />}

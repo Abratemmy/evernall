@@ -66,32 +66,37 @@ export class Home1 extends Component {
                             <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up"data-aos-duration="1000" data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><AiOutlineInsertRowRight className="practice-logo"/></div>
-                                    <div className="practice-area-title">Employment Law</div>
+                                    <div className="practice-area-title">Corporate Legal Services (Retainership)</div>
                                     <div className="practice-area-text">Know your your rights. We will take care about the rest. </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up" data-aos-duration="2000"data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up" data-aos-duration="1500"data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiBankLine className="practice-logo"/></div>
-                                    <div className="practice-area-title">Domestics Violence</div>
+                                    <div className="practice-area-title">Contract Drafting & Negotiation</div>
                                     <div className="practice-area-text">Don’t be scared to step out. Contact our law team. </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up"data-aos-duration="3000"data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up"data-aos-duration="2000"data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiCriminalLine className="practice-logo"/></div>
-                                    <div className="practice-area-title">Federal Crimes</div>
-                                    <div className="practice-area-text">Meet the best experts in the federal crimes field. </div>
+                                    <div className="practice-area-title">Legal/Process <br /> Compliance Audit</div>
+                                    <div className="practice-area-text">We offer effective business legal support all year round </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up" data-aos-duration="4000" data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up" data-aos-duration="2500" data-aos-easing="linear">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><TiDeviceLaptop className="practice-logo"/></div>
-                                    <div className="practice-area-title">Security Law</div>
-                                    <div className="practice-area-text">A security is an investment in a business. Make the 1st step. </div>
+                                    <div className="practice-area-title">Training <br /> (Online and Onsite )</div>
+                                    <div className="practice-area-text">Evernall provides trainee to applicants who are willing to learn </div>
                                 </div>
                             </div>
+                            <div className="col-lg-5 col-md-4 col-sm-12"></div>
+                            <div className="col-lg-2 col-md-4 col-sm-12" style={{paddingTop:'50px'}}>
+                                <NavLink to ="/service" exact className="button-primary">VIEW MORE</NavLink>
+                            </div>
+                            <div className="col-lg-5 col-md-4 col-sm-12"></div>
                         </div>
                        
                    </div>
@@ -107,7 +112,7 @@ export class Home1 extends Component {
                            </div>
                            <div className="col-md-3 offset-1  emergency-col emergencycol-2">
                                <IoIosCall className="emergency-icons" />
-                               <div className="emergency-span">+234 807 8793 832</div>
+                               <div className="emergency-span">+234 815 949 1814</div>
 
                            </div>
                            <div className="col-md-4 emergency-col">

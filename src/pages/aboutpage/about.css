@@ -10,6 +10,17 @@
     text-align: justify;
     padding: 5px 10px 5px 10px;
 }
+.what-we-stand-for-col{
+    background-color: #f8f8f8;
+    color: rgb(7, 7, 70);
+    padding: 20px;
+}
+.what-we-stand-for-text1{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: justify;
+}
 .aboutpics{
     overflow: hidden !important;
     width: 100%;

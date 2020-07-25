@@ -113,9 +113,17 @@ margin-bottom: 20px !important;
   height: 470px; 
   transition: 1s all ;
   top: -100px !important;
+  overflow: hidden;
   /* transition: 1s linear; */
 }
 .otherpages-title{
-  padding-top: 240px;
+  padding-top: 220px;
   transition: all 0.2s linear ;
+  overflow: hidden;
+}
+.otherpages-subtitle{
+  position: relative;
+  top:-20px;
+  font-size: 30px;
+  font-family: 'Opens san', serif;
 }

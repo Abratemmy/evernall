@@ -29,8 +29,8 @@ export class Footer extends Component {
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
                                     <ul>
-                                        <li><NavLink to='/' className="footer-nav">Home</NavLink></li>
-                                        <li><NavLink to='/practicearea' className="footer-nav">Services</NavLink></li>
+                                        <li><NavLink to='/evernall' className="footer-nav">Home</NavLink></li>
+                                        <li><NavLink to='/service' className="footer-nav">Services</NavLink></li>
                                         <li><NavLink to='/blog' className="footer-nav">Blog</NavLink></li>
                                         <li><NavLink to='/about' className="footer-nav">About us</NavLink></li>
                                     </ul>
@@ -42,7 +42,7 @@ export class Footer extends Component {
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
                                     <h6>3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</h6>
-                                    <div>+234 807 8793 832</div>
+                                    <div>+234 815 949 1814</div>
                                     <>info@evernall.com</>
                                 </div>
                             </div>

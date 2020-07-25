@@ -6,11 +6,13 @@
     width: 90%;
     top: -20px;
     left: 17px;
-    font-family: 'open sans', serif;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #0b1d64;
     cursor: pointer;
+}
+.navlink:hover{
+    text-decoration: none;
 }
 .service-banner:hover{
     top:-25px;
@@ -23,4 +25,56 @@
 .service-icon{
     float: right;
     font-size: 30px;
+}
+
+/* css for the overall services ends here */
+/* css for allservicesprops starts here */
+.allserviceslinks{
+    background-color: rgb(247, 243, 243);
+    padding: 15px ;
+}
+.allservicelinksdiv{
+    margin: 10px 0px 20px 0px;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+}
+.serviceslinks{
+    color: #000;
+    width: 100% !important;
+}
+.allserviceslinks ul li{
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 12px;
+    list-style: none;
+    color: #000;
+    font-family: 'Lustria', serif;
+    font-size: 18px;
+    
+}
+.allserviceslinks ul li:hover {
+    background-color:  #53691e;
+}
+.allserviceslinks ul li:hover .serviceslinks{
+    color: white;
+    text-decoration: none;
+}
+.allservice-footer{
+    background-color:rgb(247, 243, 243);
+}
+.allservice-footer .allcontainer{
+    padding: 30px 0px 30px 0px;
+}
+.allservice-footer-text{
+    font-size: 27px;
+    font-family: 'Lustria',serif;
+    padding: 30px 0px 20px 0px;
+    text-align:center;
+}
+.allservice-footer-text-span{
+    color: #130a3a;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
 }

@@ -24,6 +24,14 @@
     color: #000;
     font-size: 17px;
 }
+.contact-banner-maps{
+    color: #000;
+    transition: all 0.4 ease;
+}
+.contact-banner-maps:hover{
+    color:rgb(39, 39, 39);
+    text-decoration: none;
+}
 .contact-section{
     padding: 50px 0px 50px 0px;
 }
@@ -109,5 +117,4 @@
 }
 .google-map{
     box-shadow:3px 3px 3px 3px #ccc;
-    border-radius: 2px solid green;
 }
