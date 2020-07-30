@@ -1,0 +1,50 @@
+{
+    "data":[
+        {
+            "id":"fitness",
+            "blogCategory":"Featured",
+            "blogTitle":"Fitness Mantra To live life",
+            "postedOn":"july 20, 2020",
+            "author":"Evernall",
+            "blogImage":"image-1.PNG",
+            "blogText":"Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+        },
+        {
+            "id":2,
+            "blogCategory":"Simple",
+            "blogTitle":"Educational Law",
+            "postedOn":"August 20, 2020",
+            "author":"Temitope",
+            "blogImage":"image-2.PNG",
+            "blogText":"About Educational law Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+        },
+
+        {
+            "id":3,
+            "blogCategory":"Simple",
+            "blogTitle":"Family Law",
+            "postedOn":"September 20, 2020",
+            "author":"Abraham",
+            "blogImage":"image-3.jpg",
+            "blogText":"About Family law by Abraham Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+        },
+        {
+            "id":4,
+            "blogCategory":"Featured",
+            "blogTitle":"Criticism Law",
+            "postedOn":"Oct 20, 2020",
+            "author":"Odunola",
+            "blogImage":"image-4.jpg",
+            "blogText":"about Critism LAw by Odunola Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+        },
+        {
+            "id":5,
+            "blogCategory":"Fashion",
+            "blogTitle":"Law Law Law Law",
+            "postedOn":"Dec 20, 2020",
+            "author":"November",
+            "blogImage":"image-5.jpg",
+            "blogText":"Law Law law law Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+        }
+    ]
+}

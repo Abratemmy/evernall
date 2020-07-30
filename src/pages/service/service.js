@@ -18,7 +18,7 @@ export class Service extends Component {
                                 <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service5_lorbtj.jpg" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
-                                <NavLink to='/corporatelegal' className="navlink">
+                                <NavLink to='/service/corporatelegal' className="navlink">
                                 <div className="service-banner">Corporate Legal Services
                                     <IoIosArrowRoundForward className="service-icon"/>
                                 </div>

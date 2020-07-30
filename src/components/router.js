@@ -11,6 +11,7 @@ import Contractdrafting from '../pages/service/contractdrafting.js';
 import Contractmanagement from '../pages/service/contractmanagement.js';
 import Contractsupport from '../pages/service/contractsupport.js';
 import Training from '../pages/service/training.js';
+import Blog from '../pages/blogpage/blog.js';
 
 const Router = ()=>(
     <Switch>
@@ -20,6 +21,8 @@ const Router = ()=>(
         <Route exact path ='/service' component={Service} />
         <Route exact path ='/faq' component={FAQ} />
         <Route exact path ='/contact' component={Contact} />
+        <Route exact path ='/blog/:postId' component={Blog} />
+        <Route exact path ='/blog/1' component={Blog} />
         {/* route for all services */}
         <Route exact path='/service/corporatelegal' component={Corporatelegal} />
         <Route exact path='/service/contract_drafting' component={Contractdrafting} />
