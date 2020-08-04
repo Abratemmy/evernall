@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/evernall/static/css/main.fa6c634e.chunk.css",
-    "main.js": "/evernall/static/js/main.b1972072.chunk.js",
-    "main.js.map": "/evernall/static/js/main.b1972072.chunk.js.map",
+    "main.css": "/evernall/static/css/main.0af69572.chunk.css",
+    "main.js": "/evernall/static/js/main.9b178d82.chunk.js",
+    "main.js.map": "/evernall/static/js/main.9b178d82.chunk.js.map",
     "runtime-main.js": "/evernall/static/js/runtime-main.cbd964ee.js",
     "runtime-main.js.map": "/evernall/static/js/runtime-main.cbd964ee.js.map",
     "static/css/2.579b7688.chunk.css": "/evernall/static/css/2.579b7688.chunk.css",
-    "static/js/2.4e7bbb5c.chunk.js": "/evernall/static/js/2.4e7bbb5c.chunk.js",
-    "static/js/2.4e7bbb5c.chunk.js.map": "/evernall/static/js/2.4e7bbb5c.chunk.js.map",
+    "static/js/2.062d2f64.chunk.js": "/evernall/static/js/2.062d2f64.chunk.js",
+    "static/js/2.062d2f64.chunk.js.map": "/evernall/static/js/2.062d2f64.chunk.js.map",
     "index.html": "/evernall/index.html",
-    "precache-manifest.4fa86e4316340f067a3a3d6007eb3e02.js": "/evernall/precache-manifest.4fa86e4316340f067a3a3d6007eb3e02.js",
+    "precache-manifest.4b4e80ee7200715f991d8863a22a48a8.js": "/evernall/precache-manifest.4b4e80ee7200715f991d8863a22a48a8.js",
     "service-worker.js": "/evernall/service-worker.js",
     "static/css/2.579b7688.chunk.css.map": "/evernall/static/css/2.579b7688.chunk.css.map",
-    "static/css/main.fa6c634e.chunk.css.map": "/evernall/static/css/main.fa6c634e.chunk.css.map",
-    "static/js/2.4e7bbb5c.chunk.js.LICENSE.txt": "/evernall/static/js/2.4e7bbb5c.chunk.js.LICENSE.txt",
+    "static/css/main.0af69572.chunk.css.map": "/evernall/static/css/main.0af69572.chunk.css.map",
+    "static/js/2.062d2f64.chunk.js.LICENSE.txt": "/evernall/static/js/2.062d2f64.chunk.js.LICENSE.txt",
+    "static/media/image-1.PNG": "/evernall/static/media/image-1.0a852183.PNG",
+    "static/media/image-2.PNG": "/evernall/static/media/image-2.e06e59f7.PNG",
+    "static/media/image-3.jpg": "/evernall/static/media/image-3.a110f746.jpg",
+    "static/media/image-4.jpg": "/evernall/static/media/image-4.85fd79bb.jpg",
+    "static/media/image-5.jpg": "/evernall/static/media/image-5.fca8ce9c.jpg",
     "static/media/slick-theme.css": "/evernall/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbd964ee.js",
     "static/css/2.579b7688.chunk.css",
-    "static/js/2.4e7bbb5c.chunk.js",
-    "static/css/main.fa6c634e.chunk.css",
-    "static/js/main.b1972072.chunk.js"
+    "static/js/2.062d2f64.chunk.js",
+    "static/css/main.0af69572.chunk.css",
+    "static/js/main.9b178d82.chunk.js"
   ]
 }
