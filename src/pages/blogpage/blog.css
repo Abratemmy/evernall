@@ -1,23 +1,31 @@
-
+.blogPostContainer{
+    background-color:rgb(247, 243, 243);
+    padding: 15px 10px 15px 10px;
+}
 .blogHeader{
     text-align: center;
 }
 .blogCategory{
     display: block;
-    font-size: 14px;
+    font-size: 22px;
     margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .postTitle{
     letter-spacing: 0.5px;
-    text-transform: capitalize;
-    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 33px;
     margin:0;
+    color: #201747;
+    font-weight: bold;
+    font-family: 'Lustria', serif;
 }
 .postedBy{
     font-size: 15px;
     font-style: italic;
     padding: 10px 0;
     display: block;
+    font-family: 'Open Sans', sans-serif;
 }
 .postImageContainer{
     width: 100%;
@@ -26,56 +34,109 @@
 }
 .postImageContainer img{
     max-width: 100%;
-    max-height: 100%;
+    height: 500px;
 }
 
+.postContent{
+    padding: 10px 10px 10px 10px;
+}
+.postContentTitle{
+    font-size: 30px;
+    color: #425a0d;
+    font-family: 'Lustria', serif;
+}
+.postContentText{
+    text-align: justify;
+    font-style: normal;
+    line-height: 35px;
+}
 /* css class for sidebar starts here */
 .sidebarContainer{
-    width: 90%;
+    width: 100%;
+    /* background-color: rgb(247, 243, 243); */
 }
 .cardcard{
-    background-color: white;
-    border: 2px solid gray;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 100%;
+    padding: 5px 0px;
 }
 .cardHeader{
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    padding: 10px 0;
+    font-family: 'Lustria', serif;
+    padding: 10px 0 0px 0px;
     box-sizing: border-box;
-    letter-spacing: 2px;
-    color: #556655;
+    letter-spacing: 1px;
+    color: #201747;
+    font-weight: bold;
+    background-color: rgb(247, 243, 243);
+    margin-bottom: 2px;
+}
+.sidebar-text-hr{
+    border-top: 2px solid #425a0d;
+    max-width: 20%;
+    position: relative;
+    top: -10px;
+    left: 40%;
 }
 .profileImageContainer{
     width: 100%;
-    padding: 20px;
     box-sizing: border-box;
 }
 .profileImageContainer img{
-    max-width: 100%;
-    max-height: 700px;
-    margin: 20px 0;
+    width: 100%;
+    height: 250px;
+    /* margin: 20px 0; */
 }
 .personalBio{
-    font-size: 12px;
-    color:#556655;font-weight: 300px;
+    font-size: 17px;
+    /* color:#556655; */
+    font-weight: 300px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+}
+.blog-social-icons{
+    color:   #425a0d;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+.blog-social-link ul li{
+    padding: 0px;
+}
+.blog-social-icons:hover{
+    color:#201747;
 }
 .recentPosts{
     padding: 20px 0px;
 }
 .recentPost{
-    border-bottom: 1px solid #556655;
-    margin-bottom:10px;
+    /* border-bottom: 1px solid #556655; */
+    margin-bottom:20px;
+    display: flex;
+}
+.sidebarNavlink{
+    color: blue;
+}
+.sidebarNavlink:hover{
+    text-decoration: none;
+}
+.recentPostimg{
+    width: 60px;
+    height: 60px;
+}
+.recentPostItems{
+    padding-left: 10px;
 }
 .recentPostTitle{
-    font-weight: bold;
-    color: #333;
-    letter-spacing: 1px;
+    color: #425a0d;
     font-size: 20px;
+    font-family: 'Lustria', serif;
 }
 .recentPost span{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color:#201747;
 }

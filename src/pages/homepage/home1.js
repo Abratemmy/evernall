@@ -163,7 +163,7 @@ export class Home1 extends Component {
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adicing elit ut ullam.</p>
                                         <hr className="blog-card-hr"/>
                                         <div className="blog-link">
-                                            <NavLink to="/blog" className="blog-card-link">READ MORE</NavLink>
+                                            <NavLink to="/blog/law-order" className="blog-card-link">READ MORE</NavLink>
                                             <span className="blog-link-span" ><a href="/blog" className="ahref"><BsArrowRight className="blog-link-icon"/></a></span>
                                         </div>                               
                                     </div>
@@ -179,7 +179,7 @@ export class Home1 extends Component {
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adicing elit ut ullam.</p>
                                         <hr className="blog-card-hr"/>
                                         <div className="blog-link">
-                                            <NavLink to="/blog" className="blog-card-link">READ MORE</NavLink>
+                                            <NavLink to="/blog/3" className="blog-card-link">READ MORE</NavLink>
                                             <span className="blog-link-span" ><a href="/blog" className="ahref"><BsArrowRight className="blog-link-icon"/></a></span>
                                         </div>                               
                                     </div>
@@ -195,7 +195,7 @@ export class Home1 extends Component {
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adicing elit ut ullam.</p>
                                         <hr className="blog-card-hr"/>
                                         <div className="blog-link">
-                                            <NavLink to="/blog" className="blog-card-link">READ MORE</NavLink>
+                                            <NavLink to="/blog/4" className="blog-card-link">READ MORE</NavLink>
                                             <span className="blog-link-span" ><a href="/blog" className="ahref"><BsArrowRight className="blog-link-icon"/></a></span>
                                         </div>                               
                                     </div>
@@ -211,7 +211,7 @@ export class Home1 extends Component {
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adicing elit ut ullam.</p>
                                         <hr className="blog-card-hr"/>
                                         <div className="blog-link">
-                                            <NavLink to="/blog" className="blog-card-link">READ MORE</NavLink>
+                                            <NavLink to="/blog/2" className="blog-card-link">READ MORE</NavLink>
                                             <span className="blog-link-span" ><a href="/blog" className="ahref"><BsArrowRight className="blog-link-icon"/></a></span>
                                         </div>                               
                                     </div>

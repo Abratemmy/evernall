@@ -1,80 +1,42 @@
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-/* .faqs{
-    width: 100%;
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.faqs .faq{
-    margin: 15px;
-    padding: 15px;
-    background-color: red;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+.faqbody{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(15,83,153);
+  margin: 0 auto;
 
 }
-.faqs .faq .faq-question{
-    position: relative;
-    font-size: 20px;
-    padding-right: 80px;
+.accordion{
+  width: 100%;
+  box-shadow: 1px 1px 4px 1px blue ;
+  margin: 10px;
 
 }
-.faqs .faq .faq-question::after{
-    content:'';
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    transition: 0.4s all ease;
+.faq-ques{
+  background-color: gray;
+  padding: 10px;
+  color: #fefefe;
+  cursor:pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid
 }
-.faqs .faq .faq-answer {
-    opacity: 0;
-    max-height: 0;
-    overflow-y: hidden;
-    transition:  all 0.4s ease;
+
+.faq-ques:hover
+{
+  background-color: #424242;
 }
-.faqs .gaq.open .faq-question{
-    margin-bottom: 15px;
+.content{
+  background-color: lightblue;
+  transition: all 0.5s ease-in-out;
+  height: 0px;
+  overflow: hidden;
 }
-.faqs .faq.open .faq-question::after{
-    transform: translateY(-50%) rotate(180deg)
-} */
+.content p{
+  padding: 10px;
+}
+.showContent{
+  height: 170px;
+  overflow-y: scroll;
+}

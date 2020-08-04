@@ -1,41 +1,41 @@
 {
     "data":[
         {
-            "id":"fitness",
+            "id":"law-order",
             "blogCategory":"Featured",
-            "blogTitle":"Fitness Mantra To live life",
+            "blogTitle":"Law and order ",
             "postedOn":"july 20, 2020",
             "author":"Evernall",
             "blogImage":"image-1.PNG",
-            "blogText":"Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+            "blogText":"Lorem ipsum dolor sit amet, consectetur adicing elit ut ullamcorper. leo, eget euismod orci. Cum sociis natoque penati bus et magnis dis.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisite elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris et. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit."    
         },
         {
             "id":2,
             "blogCategory":"Simple",
-            "blogTitle":"Educational Law",
+            "blogTitle":"Fitness Mantra To live life",
             "postedOn":"August 20, 2020",
             "author":"Temitope",
             "blogImage":"image-2.PNG",
-            "blogText":"About Educational law Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+            "blogText":"Lorem ipsum dolor sit amet, consectetur adicing elit ut ullamcorper. leo, eget euismod orci. Cum sociis natoque penati bus et magnis dis.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisite elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris et. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. About Educational law Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
         },
 
         {
             "id":3,
             "blogCategory":"Simple",
-            "blogTitle":"Family Law",
+            "blogTitle":"Time for action",
             "postedOn":"September 20, 2020",
             "author":"Abraham",
             "blogImage":"image-3.jpg",
-            "blogText":"About Family law by Abraham Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+            "blogText":"About Family law by Abraham Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis Lorem ipsum dolor sit amet, consectetur adicing elit ut ullamcorper. leo, eget euismod orci. Cum sociis natoque penati bus et magnis dis.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisite elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris et. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit."    
         },
         {
             "id":4,
             "blogCategory":"Featured",
-            "blogTitle":"Criticism Law",
+            "blogTitle":"Dream big",
             "postedOn":"Oct 20, 2020",
             "author":"Odunola",
             "blogImage":"image-4.jpg",
-            "blogText":"about Critism LAw by Odunola Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+            "blogText":"Lorem ipsum dolor sit amet, consectetur adicing elit ut ullamcorper. leo, eget euismod orci. Cum sociis natoque penati bus et magnis dis.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisite elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris et. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. about Critism LAw by Odunola Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
         },
         {
             "id":5,
@@ -44,7 +44,7 @@
             "postedOn":"Dec 20, 2020",
             "author":"November",
             "blogImage":"image-5.jpg",
-            "blogText":"Law Law law law Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
+            "blogText":"Law Law law law Lorem ipsum dolor sit amet, consectetur adicing elit ut ullamcorper. leo, eget euismod orci. Cum sociis natoque penati bus et magnis dis.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisite elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris et. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Do business with us and you will enjoy uis Do business with us and you will enjoy uisDo business with us and you will enjoy uisDo business with us and you will enjoy uis"    
         }
     ]
 }

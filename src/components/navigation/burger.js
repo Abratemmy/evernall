@@ -59,7 +59,7 @@ const Burger = () => {
                        
                     </li>
                    <li><NavLink to ="/faq"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>FAQ</NavLink></li>
-                   <li><NavLink to ="/blog/fitness" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
+                   <li><NavLink to ="/blog/law-order" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
                    <li><NavLink to ="/contact" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Contact Us</NavLink></li>
                </UL></div>
         </>

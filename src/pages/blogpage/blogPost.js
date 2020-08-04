@@ -31,16 +31,16 @@ const BlogPost = (props) =>{
             <div className="blogHeader">
                 <span className="blogCategory">{post.blogCategory}</span>
                 <div className="postTitle">{post.blogTitle}</div>
-                <span className="postedBy">Posted on j{post.postedOn} by {post.author}</span>
+                <span className="postedBy">Posted on {post.postedOn} by {post.author}</span>
             </div>
 
             <div className="postImageContainer">
-                <img src={require('../../blogPostimages/' +post.blogImage )}width="100%" alt="Post-imag" />
+                <img src={require('../../blogPostimages/' +post.blogImage )}width="100%" alt="Post-img" />
             </div>
 
             <div className="postContent">
-                <div className="h3">{post.blogTitle}</div>
-                <p>{post.blotText}</p>
+                <div className="postContentTitle">{post.blogTitle}</div>
+                <p className="postContentText">{post.blogText}</p>
             </div>
         </div>
     )

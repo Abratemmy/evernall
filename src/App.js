@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from './components/footer/footer';
 import Aos from "aos";
 import "aos/dist/aos.css";
+// import Apiexample from './apiexample';
 
 const App = () =>{
   useEffect(() =>{
@@ -16,6 +17,7 @@ const App = () =>{
 
   return (
     <div className="App">
+      {/* <Apiexample /> */}
       <Navigation />
       <Router />
       <Footer />

@@ -1,120 +1,76 @@
-// import React, { Component } from 'react';
+import React, { Component } from 'react';
+import Otherpagesbg from '../otherpagesbg';
+import './faq.css';
 
-// const paragraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet natus sint provident vel ab reprehenderit cum solutasuscipit facere nisi sed earum repellendus fuga debitis,nam molestiae minima voluptates possimus.'
+class FAQ extends Component {
+    state={
+        data:[
+            {
+                question:'Who are the people that can go into consulting?',
+                answer:'anyone, so far the person have knowledge ',
+            },
+            {
+                question:'Who are the people to consult?',
+                answer:'There is no age barrier. You can give legal advise to anyone that walk up to you',
+              
+            },
+    
+            {
+                question:"What are Evernall's operating hours?",
+                answer:"We work from Monday to Friday. 9am - 4pm",
+              
+            },
+            {
+                question:"What makes Evernall different?",
+                answer:"Our Solutions are practical and accessible and are tailored to meet real life situation that any business may face.",
+               
+            },
+            {
+                question:"How bespoke are the contract?",
+                answer:"Our contracts are tailored to your business because we develop them collaboratively with you. There are no generic terms and if we’ve missed something you get two free edits. Don’t say we don’t treat you!",
+             
+            }    
+        ],
 
-// const data = [
-//   {
-//     title: 'Pricing plans',
-//     paragraph
-//   },
-//   {
-//     title: 'How to apply',
-//     paragraph
-//   },
-//   {
-//     title: 'Purchasing process',
-//     paragraph
-//   },
-//   {
-//     title: 'Usage guides',
-//     paragraph
-//   }
-// ]
+        showInfo: false
+    }
 
-// export class fAQ extends Component {
-//     render() {
-//         return (
-//             <div>
-//                 <div {...{ className: 'wrapper' }}>
-//         <ul {...{ className: 'accordion-list' }}>
-//           {data.map((data, key) => {
-//             return (
-//               <li {...{ className: 'accordion-list__item', key }}>
-//                 <AccordionItem {...data} />
-//               </li>
-//             )
-//           })}
-//         </ul>
-//       </div>
-//             </div>
-//         )
-//     }
-// }
+    HandleToggle=()=>{
+        this.setState=({
+            showInfo:!this.state.showInfo
+        })
+        
+    }
 
-// export default fAQ
-
-
-
-// // import React, {useState} from 'react';
-// // import './faq.css'
-
-// // function FAQ() {
-
-// //     const [faqs, setfaqs] = useState([
-// //         {
-// //             question: 'How is life?',
-// //             answer:'life is good',
-// //             open: true
-// //         },
-// //         {
-// //             question: 'How is life?',
-// //             answer:'life is good',
-// //             open: false
-// //         },
-// //         {
-// //             question: 'How is life?',
-// //             answer:'life is good',
-// //             open: false
-// //         }
-// //     ]);
-
-// //     const toggleFAQ = index => {
-// //         setfaqs(faqs.map((faq, i) =>{
-// //             if (i === index){
-// //                 faq.open = !faq.open
-// //             } else {
-// //                 faq.open = false
-// //             }
-// //         }))
-// //     }
-// //     return (
-// //         <div className="faqpage">
-// //             <div className="container-fluid about-background text-center">
-// //                 <h1 className="otherpages-title wow animate__slideInUp"  data-wow-duration="2s">FAQ</h1>
-// //             </div>
-
-// //             <div className="faqs" style={{padding: '60px 0px 80px 0px'}}>
-// //                 {faqs.map((faq, i) => (
-// //                     <div className={"faq" + (faq.open ? 'open' : '')}    key={i} onClick={() => toggleFAQ(i)}> 
-
-// //                         <div className="faq-question">
-// //                             {faq.question}
-// //                         </div>
-
-// //                         <div className="faq-answer">
-// //                             {faq.answer}
-// //                         </div>
-                        
-// //                     </div>
-// //                 ))}
-// //             </div>
-// //         </div>
-// //     )
-// // }
-
-// // export default FAQ
-
-import React, { Component } from 'react'
-
-export class fAQ extends Component {
     render() {
+      
         return (
             <div>
-                
+                <Otherpagesbg title="FAQs" />
+                <div className="accordion container">
+                    {this.state.data.map((item, index)=>{
+                        return (
+                        <div key={index}>
+                            <div className={this.state.showInfo ? "faq-ques active": 'faq-ques'} onClick={this.HandleToggle}>
+                                {item.question} <br />
+                                <i className="fas fa-plus"></i>
+                            </div>
+
+                            <div className={this.state.showInfo ? ' showContent content':'content'}>
+                                <p>{item.answer}</p>
+                            </div>
+                            
+                        </div>
+                        )
+                    })}
+
+                </div>
             </div>
         )
     }
 }
 
-export default fAQ
+export default FAQ
+
+
 
