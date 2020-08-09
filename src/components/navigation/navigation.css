@@ -34,14 +34,23 @@
 .navbar ul li{
     padding: 24px 5px 0px 0px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
 }
+
+
 .nav-link{
     color:#649200;
     font-weight: bold;
+}
+
+.navbar ul li.hover,.active{
+    color: #150365;
+    font-weight: bold;
+    content:'';
+    border-color: black;
 }
 
 /* css for the burger */

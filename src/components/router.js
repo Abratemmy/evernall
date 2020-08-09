@@ -5,7 +5,7 @@ import About from '../pages/aboutpage/about.js';
 import Contact from '../pages/contact/contact.js';
 import Home1 from '../pages/homepage/home1.js';
 import Service from '../pages/service/service.js';
-import FAQ from '../pages/faq/fAQ.js';
+import Faqs from '../pages/faq/faqs.js';
 import Corporatelegal from '../pages/service/corporatelegal.js';
 import Contractdrafting from '../pages/service/contractdrafting.js';
 import Contractmanagement from '../pages/service/contractmanagement.js';
@@ -19,7 +19,7 @@ const Router = ()=>(
         <Route exact path = '/home' component = {Home} />
         <Route exact path ='/about' component={About} />
         <Route exact path ='/service' component={Service} />
-        <Route exact path ='/faq' component={FAQ} />
+        <Route exact path ='/faq' component={Faqs} />
         <Route exact path ='/contact' component={Contact} />
         <Route exact path ='/blog/:postId' component={Blog} />
         <Route exact path ='/blog/1' component={Blog} />

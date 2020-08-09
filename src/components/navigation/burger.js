@@ -44,9 +44,9 @@ const Burger = () => {
             <div>
                 
                <UL open={open}>
-                   <li><NavLink to ="/evernall" exact  className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Home</NavLink> </li>
-                   <li><NavLink to ="/about" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>About Us</NavLink></li>
-                   <li><NavLink to ="/service"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>
+                   <li><NavLink to ="/evernall" exact  className="nav-link">Home</NavLink> </li>
+                   <li><NavLink to ="/about" exact className="nav-link">About Us</NavLink></li>
+                   <li><NavLink to ="/service"exact className="nav-link">
                        Services</NavLink>
                        <div className="dropdown-content">
                             <NavLink to="/service/corporatelegal" className=" service-dropdown afirst ">Corporate Legal Services</NavLink>
@@ -58,9 +58,9 @@ const Burger = () => {
                         </div>
                        
                     </li>
-                   <li><NavLink to ="/faq"exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>FAQ</NavLink></li>
-                   <li><NavLink to ="/blog/law-order" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Blog</NavLink></li>
-                   <li><NavLink to ="/contact" exact className="nav-link"activeStyle={{color: '#150365', fontWeight: 'bold'}}>Contact Us</NavLink></li>
+                   <li><NavLink to ="/blog/law-order" exact className="nav-link">Blog</NavLink></li>
+                   <li><NavLink to ="/faq"exact className="nav-link">FAQ</NavLink></li>
+                   <li><NavLink to ="/contact" exact className="nav-link">Contact Us</NavLink></li>
                </UL></div>
         </>
     )
