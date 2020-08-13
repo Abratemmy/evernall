@@ -13,67 +13,46 @@ body{
   z-index: none;
   /* display: relative; */
 }
-h1{
-font-size: 70px !important;
-line-height: 90px;
-font-weight: bold;
-color: #425a0d;
-letter-spacing: 0px;
-font-family:'Lustria', serif;
+
+h1, h2, h3, h4,h5{
+  font-family: 'Rubik', sans-serif;
+ 
 }
-h3{
-  color: rgba(9, 9, 26, 0.904);
-  font-family: 'Lustria', serif;
-  font-size: 50px !important;
-}
-h4{
-  color: #0b1433;
-  font-family: 'Lustria',serif;
-  font-weight: bold;
-  font-size: 30px !important;
-}
-/* h5{
-  color: #131b38;
-  font-family: Lustria,serif;
-  font-weight: 900;
-} */
-p{
-  padding: 15px 0px 15px 0px;
-  font-size: 19px;
+h6, p{
   font-family: 'Open Sans', sans-serif;
+  padding: 0px 4px 0px 4px;
 }
-.background-text p{
-min-width: 689px;
-max-width: 689px;
-white-space: normal;
-margin-bottom: 20px !important;
+.button-first{
+  color:white;
+
 }
+
 
 .button-primary{
   color: white;
   background-color: #425a0d;
-  padding: 10px 30px 10px 30px!important;
+  padding: 10px 30px 10px 30px;
   text-transform: uppercase;
   border-radius: 20px;
-  transition: all .2s;
-  font-family: 'Lustria', serif;
+  transition: all 0.4s ease;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer!important;  
 }
 .button-primary:hover{
-  display: inline-block;
-  transform: scale(1.1);
   text-decoration: none;
-  color: white;
+  color: #1e3f50;
 }
-.button-primary1{
-  border: none;
-}
+
+/* .button-primary{
+  color:white;
+} */
+
 .header-text-hr{
   border-top: 2px solid #649200;
   max-width: 15%;
   position: relative;
-  top: -30px;
   left: 43%;
-  /* padding: 0px 70% 0px 70%; */
+  margin-bottom: 50px;
 }
 @media screen and (max-width: 780px){
   .background-text p{
@@ -105,7 +84,7 @@ margin-bottom: 20px !important;
 }
 
 .about-background{
-  background:url("https://res.cloudinary.com/aitechma/image/upload/v1594650553/Consulting/pagesback_ffjbuo.png");
+  background:  linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1594650553/Consulting/pagesback_ffjbuo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -120,10 +99,15 @@ margin-bottom: 20px !important;
   padding-top: 220px;
   transition: all 0.2s linear ;
   overflow: hidden;
+  font-family:  'Rubik', sans-serif;
+  font-size: 60px;
+  color: white;
+
 }
 .otherpages-subtitle{
   position: relative;
   top:-20px;
   font-size: 30px;
-  font-family: 'Opens san', serif;
+  font-family: 'Opens san', sans-serif;
+  color: rgb(228, 226, 226);
 }

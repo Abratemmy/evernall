@@ -19,8 +19,8 @@ export class Footer extends Component {
                             <div className="col-lg-3 col-md-3 col-sm-12 footer-column">
                                 <div className="footer-title">Evernall</div>
                                 <hr className="footer-hr"/>
-                                <div className="footer-text">Facilis ipsum reprehenderit nemo molestias. 
-                                    Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet
+                                <div className="footer-text" style={{textAlign:'justify'}}>Evernall is a non-traditional Law Firm that provides dynamic legal solutions you need to grow your business in the present day Nigeria. From freelancing to startups,
+                                  through scaling for growth and thriving, Evernall will support you in every step of the way.
                                 </div>    
                             </div>
 
@@ -31,8 +31,10 @@ export class Footer extends Component {
                                     <ul>
                                         <li><NavLink to='/evernall' className="footer-nav">Home</NavLink></li>
                                         <li><NavLink to='/service' className="footer-nav">Services</NavLink></li>
-                                        <li><NavLink to='/blog' className="footer-nav">Blog</NavLink></li>
+                                        <li><NavLink to='/blog/law-order' className="footer-nav">Blog</NavLink></li>
                                         <li><NavLink to='/about' className="footer-nav">About us</NavLink></li>
+                                        <li><NavLink to='/faq' className="footer-nav">FAQ</NavLink></li>
+                                        <li><NavLink to='/contact' className="footer-nav">Contact</NavLink></li>
                                     </ul>
                                 </div>          
                             </div>
@@ -51,7 +53,7 @@ export class Footer extends Component {
                                 <div className="footer-title">Opening Hours</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
-                                    <div className="">Mon -Thurs: 9:00AM - 5:00PM</div>
+                                    <h6 className="">Mon -Thurs: 9:00AM - 5:00PM</h6>
                                     <div className="" >Fri: 10AM- 4PM</div>
                                     <div className="">Sat  12PM-5PM</div>
                                 </div>
@@ -68,7 +70,7 @@ export class Footer extends Component {
                         </div>
 
                         <div className="copyright text-center">                            
-                            <span> &copy; 2020 Evernall Consultant Ltd. All Rights Reserved. | Website design & build by <span> <a href ='Abraolas Info-Tech Nigeria' className="abraolas">Abraolas</a> </span> </span>  
+                            <span> &copy; 2020 Evernall Consultanting Ltd. All Rights Reserved. | Website design & build by <span> <a href ='Abraolas Info-Tech Nigeria' className="abraolas">Abraolas</a> </span> </span>  
                             <div className="copyrightdiv"><NavLink to ='discliamer' className="copyrightnav">Disclaimer </NavLink> | 
                             <NavLink to ='discliamer'className="copyrightnav">Privacy Policy</NavLink>|
                             <NavLink to ='discliamer' className="copyrightnav">Terms of Use  </NavLink> </div>

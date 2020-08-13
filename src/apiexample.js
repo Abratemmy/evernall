@@ -27,14 +27,20 @@ export class Apiexample extends Component {
         }
         return (
             <div>
-                <ul>
-                    {items.map(item =>(
-                        <li key={item.id}>
-                            Name:{item.name}  |  Email: {item.email}
-                        </li>
-                    )
-                        )}
-                </ul>
+                {/* <ul> */}
+                <div className="row">
+                    <div className="col-lg-6">
+                        {items.map(item =>(
+                            <div className="">
+                               
+                                    Name:{item.name}  |  Email: {item.email}
+                             
+                            </div>
+                            )
+                            )}
+                    </div>
+                </div>
+                 
         
             </div>
         )

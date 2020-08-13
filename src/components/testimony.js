@@ -1,19 +1,41 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 
+
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "red" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
+
 export class Testimony extends Component {  
     render() {
         const testimony = {
-            // arrows: true,
-            dots: true,
-            // centerMode: true,
-            // adaptiveHeight: true,
+            arrows:true,
             infinite: true,
             autoplay: true,
             speed: 6000,
             autoplaySpeed: 6000,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />
             
         }
         return (

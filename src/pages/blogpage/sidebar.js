@@ -59,10 +59,10 @@ const Sidebar =(props) => {
                     {
                         posts.map(post =>{
                             return(
-                               
-                                <div className="">
-                                    <NavLink key={post.id} to={`/blog/${post.id}`} className="sidebarNavlink" >
-                                    <div className="recentPost">
+
+                                <div className="" key={post.id}>
+                                    <NavLink  to={`/blog/${post.id}`} className="sidebarNavlink" >
+                                    <div className="recentPost" >
                                         <div>
                                             <img src = {require('../../blogPostimages/' +post.blogImage )} alt="small-img" className="recentPostimg"/>
                                         </div>

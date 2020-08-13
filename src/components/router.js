@@ -12,6 +12,8 @@ import Contractmanagement from '../pages/service/contractmanagement.js';
 import Contractsupport from '../pages/service/contractsupport.js';
 import Training from '../pages/service/training.js';
 import Blog from '../pages/blogpage/blog.js';
+import Whyuseus from '../pages/aboutpage/whyuseus.js';
+import Testimonial from '../pages/aboutpage/Testimonial.js';
 
 const Router = ()=>(
     <Switch>
@@ -29,6 +31,10 @@ const Router = ()=>(
         <Route exact path='/service/contract_management' component={Contractmanagement} />
         <Route exact path='/service/contract_support' component={Contractsupport} />
         <Route exact path='/service/training' component={Training} />
+
+        {/* route for aboutpage */}
+        <Route exact path ='/about/whyuseus' component={Whyuseus} />
+        <Route exact path ='/about/testimonial' component={Testimonial} />
         
 
         

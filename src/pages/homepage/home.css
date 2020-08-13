@@ -1,50 +1,63 @@
 
-.header-text{
-    padding: 20px 50px 50px 50px;
-    line-height: 35px;
-    font-size: 20px;
-}
-
 .background-image1{
-    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594126391/Consulting/conback3_rkglrk.png");
+    background: linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1597070900/Consulting/background-1_bvlax6.png");
 }
 .background-image2{
-    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594126399/Consulting/conback2_agyfwb.png");
+    background: linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1597071474/Consulting/background-2_d5ufzn.png");
 }
-.background-image3{
-    background: -webkit-linear-gradient(to left, #ccbcbc, #eed4d4, #e9e8e8);
-     background: linear-gradient(to left, #cac0bf, #d8d0d0, #ada7ab);
-    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594295865/Consulting/wearethere_rlvhvp.jpg");
-}
+
 .background-pictures{
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    color:white;
+}
+.homeslides{
+    position:absolute;
+}
+.homeslides .slick-prev{
+    position:relative;
+  
+}
+.homeslides .slick-prev{
+    left:5% !important;
+    z-index:1;
+}
+.homeslides .slick-next{
+    right:5% !important;
+    z-index:1;
+}
+.background-header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    padding-bottom: 20px;
 }
 .background-text p{
     font-size: 21px;
-    font-weight: 700;
-    color: #1d2951;
     letter-spacing: 0px;
+    color:rgb(214, 213, 213);
     font-family: 'Open Sans', sans-serif;
-    padding: 0px 0px 20px 0px;
-    /* min-height: 61px;
-    max-height: 61px; */
+    padding: 10px 0px 30px 0px;
 }
 
 .background-text{
     text-align: inherit;
-    padding-top: 170px;
+    padding-top: 110px;
 }
+
+/* background css ends here. another section starts here */
+
 .header-text{
     padding-top: 60px;
-    line-height: 50px;
+    font-size: 40px;
+    color:#1e3f50;
+    
 }
 .practice-area-items{
    padding: 20px 0px 20px 0px;
-   border: 1px solid #1d2951;
+   border: 1px solid #1e3f50;
    margin-bottom: 10px;
    height: 300px;
 }
@@ -62,25 +75,24 @@
 }
 .practice-logo{
     font-size: 55px;
-    color: #1d2951;
+    color: #1e3f50;
 }
 .practice-area-logo{
     padding: 30px 0px 10px 0px;
 }
 .practice-area-title{
-    color: #1d2951;
-    font-family: 'Lustria', serif;
-    font-size: 20px !important;
+    color: #1e3f50;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px ;
 }
 .practice-area-text{
     color: rgb(78, 78, 78);
-    padding: 15px 0px 15px 0px;
-    font-size: 19px;
-    font-family: 'Open Sans', sans-serif;
+    padding: 15px 5px 15px 5px;
+    font-size: 17px;
 }
 /* css for emergency calls */
 .emergency-calls{
-    background-color: #1d2951; 
+    background-color: #1e3f50; 
 }
 .emergency-call{
     font-size: 25px;
@@ -97,6 +109,19 @@
 /* another section starts here we are there for you section */
 .we-are-there{
     padding-top: 8%;
+}
+.we-are-there-title{
+    color: #1e3f50;
+    font-size: 30px;
+}
+.we-are-there-text1{
+    line-height: 27px;
+    text-align: justify;
+}
+.we-are-there-text2{
+    line-height: 27px;
+    text-align: justify;
+    color: rgb(80, 79, 79);
 }
 .we-are-there-pic{
     border-radius: 20px;
@@ -140,24 +165,24 @@
 }
 .blog-card-body .card-subtitle{
     padding-top: 30px;
-    color:#53691e;
+    color:#649200;
+    font-size: 15px;
 
 }
 .blog-card-body .card-title{
     padding: 10px 0px 0px 0px;
-    color: #000;
-    font-family: 'Lustria', serif;
-    font-size: 20px !important;
+    font-size: 17px;
+    color: #1e3f50;
 }
 .blog-card-body .card-title:hover{
-    color: #53691e;
+    color:#649200;
 }
 .blog-card-body p{
     font-size: 15px;
-    padding-top: 5px;
+    padding: 5px 0px;
 }
 .blog-card-link{
-    color:#030e35;
+    color:#1e3f50;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -165,7 +190,7 @@
 }
 .blog-link{
     display: inline-block;
-    color: #030e35;
+    color: #1e3f50;
     position: relative;
     top:-10px;
 }
@@ -174,7 +199,7 @@
     text-decoration: none;
 }
 .blog-link:hover .blog-card-link, .blog-link:hover .blog-link-icon{
-    color: rgb(105, 76, 26);
+    color: #649200;
     transition: all 1s;
 }
 .blog-link-span{

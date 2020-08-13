@@ -27,7 +27,7 @@ const StyledBurger = styled.div`
   }
 `
 const UL = styled.ul`
-  @media(max-width: 760px){
+  @media(max-width: 1000px){
       transform: ${({open}) => open ? 'translate(0)' : 'translateX(100%)'}
     
   }
@@ -36,7 +36,7 @@ const Burger = () => {
     const [open, setOpen] = useState(false)
     return (
         <>
-            <StyledBurger className="burger" open={open} onClick={()=>setOpen (!open)}>
+            <StyledBurger className="burger " open={open} onClick={()=>setOpen (!open)}>
                 <div className="burgerdiv"></div>
                 <div className="burgerdiv"></div>
                 <div className="burgerdiv"></div>
@@ -45,8 +45,15 @@ const Burger = () => {
                 
                <UL open={open}>
                    <li><NavLink to ="/evernall" exact  className="nav-link">Home</NavLink> </li>
-                   <li><NavLink to ="/about" exact className="nav-link">About Us</NavLink></li>
-                   <li><NavLink to ="/service"exact className="nav-link">
+                   <li><NavLink to ="/about" exact className="nav-link .nav-linkdrop">About Us
+                        </NavLink>
+                        <div className="dropdown-content">
+                            <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Why use us</NavLink>
+                            <NavLink to="/about/testimonial" className=" service-dropdown">Testimonial</NavLink>
+                        </div>
+                        
+                    </li>
+                   <li><NavLink to ="/service"exact className="nav-link .nav-linkdrop">
                        Services</NavLink>
                        <div className="dropdown-content">
                             <NavLink to="/service/corporatelegal" className=" service-dropdown afirst ">Corporate Legal Services</NavLink>

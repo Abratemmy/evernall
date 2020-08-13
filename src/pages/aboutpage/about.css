@@ -4,7 +4,7 @@
 }
 .what-we-stand-for-text{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     color:#425a0d;
     line-height: 35px;
     text-align: justify;
@@ -12,18 +12,24 @@
 }
 .what-we-stand-for-col{
     background-color: #f8f8f8;
-    color: rgb(7, 7, 70);
+    color: #1e3f50;
     padding: 20px;
+    margin-top: 20px;
 }
 .what-we-stand-for-text1{
     font-family: 'Open Sans', sans-serif;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
 }
 .aboutpics{
     overflow: hidden !important;
     width: 100%;
+}
+.about-col h4{
+    color: #1e3f50;
+    letter-spacing: 1.5px;
+    font-size: 23px;
 }
 .aboutpiccol{
     overflow: hidden;
@@ -36,7 +42,7 @@
 .legal-solution-title{
     padding: 20px 0px 20px 0px;
     font-size: 23px;
-    font-family: 'Lustria',serif;
+    font-family: 'Rubik', sans-serif;
     color:#649200;
     font-weight: bold;
 }
@@ -45,4 +51,73 @@
     font-family: 'Open Sans', sans-serif;
     color: #000;
     font-size: 18px;
+}
+
+/* why use us css */
+
+.aboutdropdown-title{
+    font-size: 50px;
+    color:  #1e3f50;
+    font-family: 'Rubik', sans-serif;
+}
+.whyuseuscard{
+    padding: 45px 0px 45px 0px;
+}
+.whyuseuscard h6{
+    line-height: 35px;
+    font-size: 18px;
+}
+.whyuseusfirstp1{
+    color:#1e3f50;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.whyuseusfirstp2{
+    color: rgb(26, 25, 25);
+    line-height: 28px;
+    font-size: 17px;
+}
+.whyuseussecond{
+    background-color: #1e3f50;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+}
+.whyuseussecond h4{
+    font-size: 28px;
+    color: white;
+}
+/* testimonial */
+.aboutdropdown-testimonial{
+    padding: 10% 0 8% 0;
+   
+}
+/* .main-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap:10px;
+    grid-auto-flow: column;
+} */
+.main-testimonial{
+    background-color:  #425a0d;
+    
+}
+.main-testimony{
+    overflow:hidden;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
+    padding-top: 20px;   
+}
+.testimony-name{
+    text-align:center;
+    color:#1e3f50;
+    font-weight: bold;
+    font-size: 20px;
+}
+.testimony-job{
+    text-align: center;
+    color:#649200;
 }

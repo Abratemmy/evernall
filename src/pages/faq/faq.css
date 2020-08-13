@@ -64,6 +64,9 @@
   font-weight: 400;
   padding-right: 80px;
   transition: all 0.4s ease;
+  font-family: 'Rubik', sans-serif;
+  /* font-weight: bold; */
+ 
 }
 .faqs .faq .faq-question::after{
   content:'';
@@ -74,7 +77,8 @@
   width: 30px;
   height: 30px;
 
-  background-image: url('../../dropdown.PNG');
+
+  background-image: url('../../arrows.PNG');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -85,7 +89,9 @@
   max-height: 0;
   overflow-y: hidden;
   transition:  all 0.4s ease;
-  color: blue
+  color: #1e3f50;
+  font-size: 20px;
+  
 }
 
 /* .faq .open{height: 400px} */

@@ -6,31 +6,31 @@
 }
 .footer-banner-text{
     color: white;
-    font-family:  'Lustria',serif;
-    font-size: 37px;
+    font-family:  'Rubik', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     padding-bottom: 40px;
 }
 .signUpButton{
-    background-color:  #0e0829;
+    background-color:   #1e3f50;
     color: white;
     font-size: 20px;
     padding: 10px 25px 10px 25px;
-    font-family: 'Lustria',serif;
+    font-family: 'Open Sans', sans-serif;
     border-radius: 30px;
     transition: all 0.1s ease;
 }
 .signUpButton:hover{
     text-decoration: none;
     color: white;
-    background-color: #293869;
+    background-color: #1e3f50;
     /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)); */
 }
 
 /* section2 start here */
 .footersection2{
     position: relative;
-    background-color:  #0e0829;
+    background-color:#1e3f50;
     box-sizing: border-box;
     color: #d8d4d2;
     font-family: 'Open Sans', sans-serif;
