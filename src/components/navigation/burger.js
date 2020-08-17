@@ -56,12 +56,12 @@ const Burger = () => {
                    <li><NavLink to ="/service"exact className="nav-link .nav-linkdrop">
                        Services</NavLink>
                        <div className="dropdown-content">
-                            <NavLink to="/service/corporatelegal" className=" service-dropdown afirst ">Corporate Legal Services</NavLink>
-                            <NavLink to="/service/contract_support" className=" service-dropdown">Legal/Contract Support Staffing</NavLink>
-                            <NavLink to="/service/contract_drafting"className=" service-dropdown">Contract drafting/Negotiation</NavLink>
-                            <NavLink to="/service/contract_management"className=" service-dropdown">Contract Management </NavLink>
-                            <NavLink to="/service/legal_compliance"className=" service-dropdown">Legal/Process Compliance Audit</NavLink>
-                            <NavLink to="/service/training"className=" service-dropdown">Training (Online and Onsite)</NavLink>
+                            <NavLink to='/service/contract-drafting' exact className="service-dropdown afirst">Contract Drafting/Negotiation</NavLink>
+                            <NavLink to='/service/business-entity' exact className="service-dropdown">Business Entity Formation/Advisory</NavLink>
+                            <NavLink to='/service/intellectual-property' exact className="service-dropdown">Intellectual Property</NavLink>
+                            <NavLink to='/service/corporate-governance' exact className="service-dropdown">Corporate Governance/Compliance </NavLink>
+                            <NavLink to='/service/training'exact className="service-dropdown">Contract Management Services/Training</NavLink>
+                            <NavLink to='/service/general-business-legal-support' exact className="service-dropdown">General Business Legal Support</NavLink>
                         </div>
                        
                     </li>

@@ -11,22 +11,6 @@ import {IoIosCall} from "react-icons/io";
 import {MdEmail} from "react-icons/md";
 import Testimony from '../../components/testimony';
 
-
-// const background = [
-//     {
-//         id: 1,
-//         url:"https://res.cloudinary.com/aitechma/image/upload/v1597070900/Consulting/background-1_bvlax6.png",
-//         text:"We provides dynamic legal solutions you need to grow your business in the present day Nigeria.",
-//         title:"Led by the Truth"
-//     },
-
-//     {
-//         id: 2,
-//         url:"https://res.cloudinary.com/aitechma/image/upload/v1597071474/Consulting/background-2_d5ufzn.png",
-//         text:"Find the support that you need when fighting for your rightWe provides dynamic legal solutions you need to grow your business in the p",
-//         title:"Inspired bt right"
-//     },
-// ]
 export class Home1 extends Component {
     componentDidMount(){
         const wow = new 
@@ -39,7 +23,7 @@ export class Home1 extends Component {
             lazyLoad:true,
             infinite: true,
             autoplay: true,
-            speed: 200,
+            speed: 500,
             autoplaySpeed: 7000,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -54,10 +38,9 @@ export class Home1 extends Component {
                        <div className="animated slideInDown background-text container" style={{animationDelay:'1s'}} >
                            <div className="row">
                                <div className="col-lg-7 ">
-                                    <h1 className="background-header">Led by the Truth</h1>
+                                    <h2 className="background-header">Trusted Legal Services</h2>
                                     <p>We provides dynamic legal solutions you need to grow your business in the present day Nigeria.</p>                     
-                                    {/* <NavLink to ="/contact"  className="">i
-                                        <div className="firstcon">CONTACT US</div></NavLink>  */}
+                            
                                            <Link to ="/contact"  className="button-primary"style={{marginTop:'5px'}}>CONTACT US</Link> 
                                </div>
                            </div>
@@ -68,9 +51,9 @@ export class Home1 extends Component {
                    <div className="background-pictures background-image2 ">
                        <div className= " background-text container" >
                            <div className="row">
-                               <div className="col-lg-7">
-                                    <h1 className="background-header">Inspired by Right</h1>
-                                    <p>Find the support that you need when fighting for your rightWe provides dynamic legal solutions you need to grow your business in the p</p>
+                               <div className="col-lg-8">
+                                    <h2 className="background-header">Topnotch Commercial Support</h2>
+                                    <p>We bring over 25 years in business and legal risk assessment and mitigation across various industries </p>
                                    <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>                            
                                </div>
                            </div>
@@ -88,33 +71,45 @@ export class Home1 extends Component {
                        <hr className="header-text-hr" />
 
                         <div className="row " >
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up"data-aos-duration="1000" data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center wow animate__slideInLeft" >
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><AiOutlineInsertRowRight className="practice-logo"/></div>
-                                    <div className="practice-area-title">Corporate Legal Services (Retainership)</div>
-                                    <p className="practice-area-text">Know your your rights. We will take care about the rest. </p>
+                                    <div className="practice-area-title">Business Entity Formation/Advisory</div>
+                                    <p className="practice-area-text">We can help you select the right type of business to form, get you registered with the Corporate 
+                                        <span className="" style={{color:'#649200', letterSpacing:'8px', fontFamily:'Rubik',fontWeight:'bold'}}> ...</span>
+                                    </p>
+                                    <NavLink to='/service/business-entity' className="service-hover-link">view more</NavLink>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center" data-aos="fade-up" data-aos-duration="1500"data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiBankLine className="practice-logo"/></div>
                                     <div className="practice-area-title">Contract Drafting & Negotiation</div>
-                                    <p className="practice-area-text">Don’t be scared to step out. Contact our law team. </p>
+                                    <p className="practice-area-text">With our robust commercial background, we can draft and negotiate water -tight and easy 
+                                        <span className="" style={{color:'#649200', letterSpacing:'8px', fontFamily:'Rubik',fontWeight:'bold'}}> ...</span>
+                                    </p>
+                                    <NavLink to='/service/contract-drafting' className="service-hover-link">view more</NavLink>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up"data-aos-duration="2000"data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiCriminalLine className="practice-logo"/></div>
-                                    <div className="practice-area-title">Legal/Process <br /> Compliance Audit</div>
-                                    <p className="practice-area-text">We offer effective business legal support all year round </p>
+                                    <div className="practice-area-title">Intellectual <br />  Property</div>
+                                    <p className="practice-area-text">Your intellectual property (IP) is one of your most valuable assets. We can help you identify
+                                        <span className="" style={{color:'#649200', letterSpacing:'8px', fontFamily:'Rubik',fontWeight:'bold'}}> ...</span>
+                                    </p>
+                                    <NavLink to='/service/intellectual-property' className="service-hover-link">view more</NavLink>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center"data-aos="fade-up" data-aos-duration="2500" data-aos-easing="linear">
+                            <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center wow animate__slideInRight" >
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><TiDeviceLaptop className="practice-logo"/></div>
-                                    <div className="practice-area-title">Training <br /> (Online and Onsite )</div>
-                                    <p className="practice-area-text">Evernall provides trainee to applicants who are willing to learn </p>
+                                    <div className="practice-area-title">Contract Management Services/Training</div>
+                                    <p className="practice-area-text">We offer cradle- to -grave Contract Management Solutions, you do not just have
+                                        <span className="" style={{color:'#649200', letterSpacing:'8px', fontFamily:'Rubik',fontWeight:'bold'}}> ...</span>
+                                    </p>
+                                    <NavLink to='/service/training' className="service-hover-link">view more</NavLink>
                                 </div>
                             </div>
 
@@ -137,7 +132,7 @@ export class Home1 extends Component {
                            </div>
                            <div className="col-md-3 offset-1  emergency-col emergencycol-2">
                                <IoIosCall className="emergency-icons" />
-                               <div className="emergency-span">+234 815 949 1814</div>
+                               <div className="emergency-span">+234 907 838 0989, +234 810 129 6309 </div>
 
                            </div>
                            <div className="col-md-4 emergency-col">
@@ -153,14 +148,18 @@ export class Home1 extends Component {
                    <div className="container  we-are-there">
                        <div className="row">
                            <div className="col-md-6 col-sm-12">
-                                <h4 className="we-are-there-title" style={{paddingTop:'30px'}}> We're there for you</h4>
-                                <p className="we-are-there-text1">With 25 years of experience in low and justice, our team is focused on delivering quality and value 
-                                  to our clients. We achieve this through practical and innovative legal solutions that help our clients. 
-                                  Everyone deserves support on the way to justice.
+                                <h4 className="we-are-there-title" style={{paddingTop:'30px'}}> Why us?</h4>
+                                <p className="we-are-there-text1">We are  non-traditional, technology-driven and resourceful Firm. We are pragmatic, innovative and practical in our solutions and approach.
                                 </p>
 
-                                <h6 className="we-are-there-text2">Not only do we protect your business, but we promote it too. All the agreements we produce are so well-researched, easy to read and 
-                                    watertight that they portray your business in the most positive and professional light possible.
+                                <h6 className="we-are-there-text2">
+                                    We stay with you through the years 
+                                    With our bond on commitment to our Clients, we take our time to understand our Client’s peculiarities and deliver legal work to match the same
+                                </h6>
+
+                                <h4 className="we-are-there-title" style={{paddingTop:'30px'}}> Our Guarantee</h4>
+                                <h6 className="we-are-there-text2">
+                                    Dynamism, solution-focused and efficiency. “If it is within our purview, we won’t let it slip.”
                                 </h6>
                            </div>
                            <div className="col-md-6 col-sm-12">

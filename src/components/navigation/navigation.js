@@ -34,7 +34,7 @@ export class Navigation extends Component {
                 <div className="nav-hidden-when-scrolled">
                     <div className="nav-hidden-items container">
                         <ul>
-                            <li><span className="nav-icon"><IoIosCall /></span>+234 815 949 1814</li>
+                            <li><span className="nav-icon"><IoIosCall /></span>+234 907 838 0989 , +234 810 129 6309</li>
                             <li><span className="nav-icon"><MdEmail /></span>info@evernall.com</li>
                         </ul>
                     </div>

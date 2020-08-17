@@ -6,14 +6,17 @@ import Contact from '../pages/contact/contact.js';
 import Home1 from '../pages/homepage/home1.js';
 import Service from '../pages/service/service.js';
 import Faqs from '../pages/faq/faqs.js';
-import Corporatelegal from '../pages/service/corporatelegal.js';
-import Contractdrafting from '../pages/service/contractdrafting.js';
-import Contractmanagement from '../pages/service/contractmanagement.js';
-import Contractsupport from '../pages/service/contractsupport.js';
+
+import Contractdrafting from '../pages/service/contract_drafting.js';
+import Businessentity from '../pages/service/business_entity.js';
+import Intellectualproperty from  '../pages/service/intellectual_property.js';
+import Corporategovernance from '../pages/service/corporate_governance.js';
+
 import Training from '../pages/service/training.js';
 import Blog from '../pages/blogpage/blog.js';
 import Whyuseus from '../pages/aboutpage/whyuseus.js';
 import Testimonial from '../pages/aboutpage/Testimonial.js';
+import Businesslegal from '../pages/service/business_legal.js';
 
 const Router = ()=>(
     <Switch>
@@ -25,12 +28,14 @@ const Router = ()=>(
         <Route exact path ='/contact' component={Contact} />
         <Route exact path ='/blog/:postId' component={Blog} />
         <Route exact path ='/blog/1' component={Blog} />
+
         {/* route for all services */}
-        <Route exact path='/service/corporatelegal' component={Corporatelegal} />
-        <Route exact path='/service/contract_drafting' component={Contractdrafting} />
-        <Route exact path='/service/contract_management' component={Contractmanagement} />
-        <Route exact path='/service/contract_support' component={Contractsupport} />
+        <Route exact path='/service/business-entity' component={ Businessentity} />
+        <Route exact path='/service/contract-drafting' component={Contractdrafting} />
+        <Route exact path='/service/intellectual-property' component={Intellectualproperty} />
+        <Route exact path='/service/corporate-governance' component={Corporategovernance} />
         <Route exact path='/service/training' component={Training} />
+        <Route exact path='/service/general-business-legal-support' component={Businesslegal} />
 
         {/* route for aboutpage */}
         <Route exact path ='/about/whyuseus' component={Whyuseus} />

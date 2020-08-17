@@ -17,19 +17,23 @@ export class Whyuseus extends Component {
                         <div className="row">
                             <div className="col-lg-4 col-md-4 " style={{backgroundColor:'#ddd5d5'}}>
                                 <div className="whyuseuscard">
-                                    <h6>We are qualified in Contract Law and regulated by the Chartered Institute of Legal Executives (CILEx)</h6>
+                                    <h6> We are a Legal Service Provider – operating both onsite and actively virtual, to meet the needs of today’s businesses. Many entrepreneurs and freelancers complain 
+                                        that law firms are not composed to keep up with modern business trends and so our solutions are built to be efficient and easy to assess.</h6>
                                 </div>
                                 
                             </div>
                             <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ebe6e6'}}>
                                 <div className="whyuseuscard">
-                                    <h6>Our approach is personal and practical</h6>
+                                    <h6>
+                                        We have standardized many of our services into “legal packages” and for Small businesses and Freelancers, we have contract templates that can be easily purchased and free resources too.
+                                    </h6>
                                 </div>
                                 
                             </div>
                             <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ddd5d5'}}>
                                 <div className="whyuseuscard">
-                                    <h6>Our fees are affordable and always under a fixed price</h6>
+                                    <h6>Our fees are affordable and always under a fixed price. </h6>
+                                    <h6>Our approach is personal and practical</h6>
                                 </div>
                                 
                             </div>
