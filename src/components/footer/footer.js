@@ -10,7 +10,7 @@ export class Footer extends Component {
                 <div className="footer-banner">
                     <div className="footer-banner-text">Do you want our latest legal updates?</div>
                     <div >
-                        <NavLink to='signUp' className="signUpButton"> Sign up here</NavLink></div>
+                        <a href="http://eepurl.com/ha4rc1" target="_blank" className="signUpButton"> Sign up here</a></div>
                 </div>
             
                 <div className="footersection2">
