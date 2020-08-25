@@ -6,7 +6,7 @@ export class Intellectualproperty extends Component {
         return (
             <div>
                 <AllserviceProps serviceprovided="Intellectual property" title="Intellectual Property"
-                  image="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service2_lv2l72.jpg">
+                  image="https://res.cloudinary.com/aitechma/image/upload/v1598347687/Consulting/intellectual_ekzu8s.png">
                     
 
                     <div className="each-service-page" >

@@ -45,7 +45,7 @@ const Burger = () => {
                 
                <UL open={open}>
                    <li><NavLink to ="/evernall" exact  className="nav-link">Home</NavLink> </li>
-                   <li><NavLink to ="/about" exact className="nav-link .nav-linkdrop">About Us
+                   <li><NavLink to ="/about" className="nav-link .nav-linkdrop">About Us
                         </NavLink>
                         <div className="dropdown-content">
                             <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Why use us</NavLink>
@@ -53,7 +53,7 @@ const Burger = () => {
                         </div>
                         
                     </li>
-                   <li><NavLink to ="/service"exact className="nav-link .nav-linkdrop">
+                   <li><NavLink to ="/service" className="nav-link .nav-linkdrop">
                        Services</NavLink>
                        <div className="dropdown-content">
                             <NavLink to='/service/contract-drafting' exact className="service-dropdown afirst">Contract Drafting/Negotiation</NavLink>

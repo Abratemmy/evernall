@@ -6,7 +6,7 @@ export class Contractdrafting extends Component {
         return (
             <div>
                 <AllserviceProps  serviceprovided="Contract Drafting Service" title="Contract Drafting"
-                    image="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service5_lorbtj.jpg">
+                    image="https://res.cloudinary.com/aitechma/image/upload/v1598347690/Consulting/contract-drfafting_ayrbbd.png">
                    
                     <div className="each-service-page" >
                         <p>

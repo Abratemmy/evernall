@@ -6,7 +6,7 @@ export class Businesslegal extends Component {
         return (
             <div>
                  <AllserviceProps serviceprovided="Business Legal Suppport" title="General Business Legal Support"
-                  image="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service3_o3xxki.jpg">
+                  image="https://res.cloudinary.com/aitechma/image/upload/v1598347690/Consulting/general_dyesdm.png">
                     
 
                     <div className="each-service-page" >

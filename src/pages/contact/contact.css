@@ -106,7 +106,7 @@
     
 }
 .contact-map-background{
-    background: url("https://res.cloudinary.com/aitechma/image/upload/v1595261562/Consulting/contactmapimage_rfbwjx.png");
+    background: linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1595261562/Consulting/contactmapimage_rfbwjx.png");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;

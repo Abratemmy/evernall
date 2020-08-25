@@ -39,7 +39,7 @@ export class Home1 extends Component {
                            <div className="row">
                                <div className="col-lg-7 ">
                                     <h2 className="background-header">Trusted Legal Services</h2>
-                                    <p>We provides dynamic legal solutions you need to grow your business in the present day Nigeria.</p>                     
+                                    <p>We provide dynamic legal solutions you need to grow your business in the present day Nigeria.</p>                     
                             
                                            <Link to ="/contact"  className="button-primary"style={{marginTop:'5px'}}>CONTACT US</Link> 
                                </div>

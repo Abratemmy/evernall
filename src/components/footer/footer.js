@@ -44,7 +44,7 @@ export class Footer extends Component {
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
                                     <h6>3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</h6>
-                                    <div>+234 815 949 1814</div>
+                                    <div>+234 907 838 0989 ,<br /> +234 810 129 6309</div>
                                     <>info@evernall.com</>
                                 </div>
                             </div>

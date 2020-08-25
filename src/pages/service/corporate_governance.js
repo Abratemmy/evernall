@@ -7,7 +7,7 @@ export class Corporategovernance extends Component {
         return (
             <div>
                 <AllserviceProps  serviceprovided="Corporate Governance/Compliance" title="Corporate Governance/Compliance"
-                    image="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service4_d093wz.jpg">
+                    image="https://res.cloudinary.com/aitechma/image/upload/v1598347688/Consulting/corporate_tj6j7s.png">
                    
                     <div className="each-service-page" >
                         <p>We offer Company Secretarial functions, fill your annual returns timely and generally keep your books to the extent that you are legally compliant and

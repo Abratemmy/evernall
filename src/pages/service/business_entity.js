@@ -6,7 +6,7 @@ export class Businessentity extends Component {
         return (
             <div>
                 <AllserviceProps serviceprovided="Business Entity Formation/Advisory" title="Business Entity Formation"
-                  image="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service6_wla0ll.jpg">
+                  image="https://res.cloudinary.com/aitechma/image/upload/v1598347709/Consulting/business-entity_x9oyzb.png">
                     
 
                     <div className="each-service-page" >

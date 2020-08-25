@@ -19,7 +19,7 @@ export class Service extends Component {
                     <div className="row" >
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service5_lorbtj.jpg" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1598347690/Consulting/contract-drfafting_ayrbbd.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
                                 <NavLink to='/service/contract-drafting' className="navlink">
@@ -31,7 +31,7 @@ export class Service extends Component {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service6_wla0ll.jpg" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1598347709/Consulting/business-entity_x9oyzb.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
                                 <NavLink to='/service/business-entity' className="navlink">
@@ -43,7 +43,7 @@ export class Service extends Component {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service2_lv2l72.jpg" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1598347687/Consulting/intellectual_ekzu8s.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
                                 <NavLink to='/service/intellectual-property' className="navlink">
@@ -56,7 +56,7 @@ export class Service extends Component {
       
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service4_d093wz.jpg" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1598347688/Consulting/corporate_tj6j7s.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
                                 <NavLink to='/service/corporate-governance ' className="navlink">
@@ -68,7 +68,7 @@ export class Service extends Component {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1594828051/Consulting/service3_o3xxki.jpg" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1598347690/Consulting/general_dyesdm.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
                                 
                                 <NavLink to='/service/general-business-legal-support' className="navlink">
