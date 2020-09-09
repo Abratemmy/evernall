@@ -59,7 +59,7 @@
    padding: 20px 0px 20px 0px;
    border: 1px solid #1e3f50;
    margin-bottom: 10px;
-   height: 310px;
+   max-height: 350px;
    background:transparent;
 }
 .practice-area-items:hover{
@@ -124,11 +124,16 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
-
 .emergency-col{
     text-align: left;
     color: white;
 }
+.emergency-span{
+    padding-left: 15px;
+}
+/* .emergency-icons{
+    padding-right: 30px;
+} */
 
 /* another section starts here we are there for you section */
 .we-are-there{
@@ -141,6 +146,7 @@
 .we-are-there-text1{
     line-height: 27px;
     text-align: justify;
+    color: rgb(80, 79, 79);
 }
 .we-are-there-text2{
     line-height: 27px;

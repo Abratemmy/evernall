@@ -48,7 +48,7 @@ const Burger = () => {
                    <li><NavLink to ="/about" className="nav-link .nav-linkdrop">About Us
                         </NavLink>
                         <div className="dropdown-content">
-                            <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Why use us</NavLink>
+                            <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Our Teams</NavLink>
                             <NavLink to="/about/testimonial" className=" service-dropdown">Testimonial</NavLink>
                         </div>
                         

@@ -111,3 +111,12 @@ h6, p{
   font-family: 'Opens san', sans-serif;
   color: rgb(228, 226, 226);
 }
+
+/* css to style all width */
+/* @media screen and (max-width: 1100px){
+  .practice-area-items{
+    max-height: 510px !important;
+    border: 10px solid #1e3f50;
+    margin-bottom: 10px;
+  }
+} */

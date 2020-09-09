@@ -3,70 +3,78 @@ import React, { Component } from 'react'
 export class Whyuseus extends Component {
     render() {
         return (
-            <div className="" style={{marginTop:'40px'}}>
-                <div className="container" >
-                            <div className=" aboutdropdown-testimonial"style={{padding:'3%'}} >
-                                <h3 className="aboutdropdown-title">Why Use Evernall Consultancy?</h3>
+            <div className="">
+                <div className="" style={{marginTop:'40px',  backgroundColor:'#ebe6e6'}}>
+                    <div className="container" >
+                        <div className="row">
+                            <div className="col-lg-7 col-md-7 aboutdropdown-testimonial">
+                                <h3 className="aboutdropdown-title">Your guardian angels in business</h3>
                                 <hr className="footer-hr whyuse-hr" style={{width:'20%'}}/>
                             </div>
-                      
+                        </div>           
+                    </div>
                 </div>
-                <div className="container">
-                    
-                    <div className="" style={{padding: '20px 0px 20px 0px'}}>
-                        <div className="row">
-                            <div className="col-lg-4 col-md-4 " style={{backgroundColor:'#ddd5d5'}}>
-                                <div className="whyuseuscard">
-                                    <h6> We are a Legal Service Provider – operating both onsite and actively virtual, to meet the needs of today’s businesses. Many entrepreneurs and freelancers complain 
-                                        that law firms are not composed to keep up with modern business trends and so our solutions are built to be efficient and easy to assess.</h6>
+       
+                <div className="" style={{backgroundColor:'#f8f7f7', padding:'20px 0px 20px 0px'}}>
+                    <div className="container teams" style={{paddingTop:'20px'}}>
+                        <div className="card mb-3">
+                            <div className="row no-gutters">
+                                <div className="col-md-4" >
+                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
                                 </div>
-                                
+
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h4 className="card-title">Mrs Uwanna</h4>
+                                        <h6 className="card-subtitle">Director</h6>
+                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
+                                        {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
+                                    </div>
+                                </div>                                
                             </div>
-                            <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ebe6e6'}}>
-                                <div className="whyuseuscard">
-                                    <h6>
-                                        We have standardized many of our services into “legal packages” and for Small businesses and Freelancers, we have contract templates that can be easily purchased and free resources too.
-                                    </h6>
+                        </div>
+
+                        <div className="card mb-3">
+                            <div className="row no-gutters">
+                                <div className="col-md-4" >
+                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
                                 </div>
-                                
+
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h4 className="card-title">Mrs Uwanna</h4>
+                                        <h6 className="card-subtitle">Director</h6>
+                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
+                                        {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
+                                    </div>
+                                </div>                                
                             </div>
-                            <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ddd5d5'}}>
-                                <div className="whyuseuscard">
-                                    <h6>Our fees are affordable and always under a fixed price. </h6>
-                                    <h6>Our approach is personal and practical</h6>
+                        </div>
+                        <div className="card mb-3">
+                            <div className="row no-gutters">
+                                <div className="col-md-4" >
+                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
                                 </div>
-                                
+
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h4 className="card-title">Mrs Uwanna</h4>
+                                        <h6 className="card-subtitle">Director</h6>
+                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
+                                        {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
+                                    </div>
+                                </div>                                
                             </div>
                         </div>
                     </div>
                 </div>
+               
 
-                <div className="">
-                    <div className="container" style={{paddingTop:'50px'}}>
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 col-sm-12">
-                                <div className="whyuseusfirst">
-                                    <p className="whyuseusfirstp1">When we prepare your Terms, Contracts or Agreements, we never use a standard format or copy and paste. We work closely with you to produce 
-                                        all documentation that is bespoke and specific to your industry and needs.
-                                    </p>
-                                    <p className="whyuseusfirstp2">Not only do we protect your business, but we promote it too. All the agreements we produce are so well-researched, easy to read and watertight that they
-                                        portray your business in the most positive and professional light possible.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
-                                <div className="whyuseussecond">
-                                    <h4>How we work</h4>
-                                    <p >We get to know you. We visit you. We listen and we learn. We find out what works well and what doesn’t. Next, we prepare drafts which address the relevant issues.
-                                        We take you through the document, clause by clause, word by word in plain English.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          
+            
+                
 
-                <div className="container" style={{paddingBottom:'70px'}}>
+                {/* <div className="container" style={{paddingBottom:'70px'}}>
                     <h3 className="header-text text-center"> We Provide Legal solutions</h3>
                     <hr className="header-text-hr" />
 
@@ -107,7 +115,7 @@ export class Whyuseus extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         )

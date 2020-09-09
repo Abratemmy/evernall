@@ -59,6 +59,7 @@ export class Testimonial extends Component {
                                 <h3 className="aboutdropdown-title">Here's what Our clients say about us</h3>
                                 <hr className="footer-hr whyuse-hr" style={{width:'20%'}}/>
                             </div>
+                            
                         </div>
                         
                     </div>

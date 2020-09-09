@@ -65,19 +65,22 @@
 }
 .whyuseuscard h6{
     line-height: 35px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
+    word-spacing: 0.1px;
 }
 .whyuseusfirstp1{
     color:#1e3f50;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 17px;
+    text-align: justify;
 }
 
 .whyuseusfirstp2{
-    color: rgb(26, 25, 25);
+    color: #1e3f50;
     line-height: 28px;
     font-size: 17px;
+    text-align: justify;
 }
 .whyuseussecond{
     background-color: #1e3f50;
@@ -121,4 +124,15 @@
 .testimony-job{
     text-align: center;
     color:#649200;
+}
+.teams .card{
+    border: none;
+}
+.teams .card-body{
+    color: rgb(80, 79, 79);
+}
+.teams .card-text{
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 30px;
 }

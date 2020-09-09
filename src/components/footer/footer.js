@@ -8,7 +8,7 @@ export class Footer extends Component {
         return (
             <div className="footer">
                 <div className="footer-banner">
-                    <div className="footer-banner-text">Do you want our latest legal updates?</div>
+                    <div className="container footer-banner-text">Do you want our business legal tips delivered to your inbox?</div>
                     <div >
                         <a href="http://eepurl.com/ha4rc1" target="_blank" className="signUpButton"> Sign up here</a></div>
                 </div>
@@ -70,7 +70,7 @@ export class Footer extends Component {
                         </div>
 
                         <div className="copyright text-center">                            
-                            <span> &copy; 2020 Evernall Consultanting Ltd. All Rights Reserved. | Website design & build by <span> <a href ='Abraolas Info-Tech Nigeria' className="abraolas">Abraolas</a> </span> </span>  
+                            <span> &copy; 2020 Evernall Consulting Ltd. All Rights Reserved. | Website designed & built by <span> <a href ='Abraolas Info-Tech Nigeria' className="abraolas">Abraolas</a> </span> </span>  
                             <div className="copyrightdiv"><NavLink to ='discliamer' className="copyrightnav">Disclaimer </NavLink> | 
                             <NavLink to ='discliamer'className="copyrightnav">Privacy Policy</NavLink>|
                             <NavLink to ='discliamer' className="copyrightnav">Terms of Use  </NavLink> </div>

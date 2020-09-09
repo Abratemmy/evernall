@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './about.css';
-import Testimony from '../../components/testimony';
 import Otherpagesbg from '../otherpagesbg';
 import WOW from 'wowjs';
 import {FaArrowRight} from 'react-icons/fa';
@@ -28,8 +27,9 @@ export class About extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                 <div className="what-we-stand-for-col">
-                                    <div className="what-we-stand-for-text1 wow animate__slideInLeft">Our Solutions are practical and accessible and are tailored to meet real life situation that any business may face. We are postured towards preventing risks in businesses rather than reacting to the failed outcome. With Evernall as your partner, you can do go on and succeed in your core business, 
-                                    while we make sure that you are complying to the laws of business and negotiating fair and production transactions.</div>
+                                    <div className="what-we-stand-for-text1 wow animate__slideInLeft">Our Solutions are practical and accessible and are tailored to meet real life situation that any business may face. 
+                                    We are postured towards preventing risks in businesses rather than reacting to the failed outcome. With Evernall as your partner, you can go on and succeed in your core business, 
+                                    while we make sure that you are complying to the laws of business and negotiating fair and productive transactions.</div>
                                 </div>
                             </div>
                             <div className="col-md-2 text-center" style={{ marginTop:'10%'}}>
@@ -44,10 +44,67 @@ export class About extends Component {
                             </div>
                         </div>
                    </div>
+                   {/* another section starts here */}
+
+                   
 
                     {/* another section starts here */}
+                    <div className="container"> 
+                        <div className="" style={{padding: '20px 0px 20px 0px'}}>
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4 " style={{backgroundColor:'#ddd5d5'}}>
+                                    <div className="whyuseuscard">
+                                        <h6> We are a Legal Service Provider – operating both onsite and actively virtual, to meet the needs of today’s businesses. Many entrepreneurs and freelancers complain 
+                                            that law firms are not composed to keep up with modern business trends and so our solutions are built to be efficient and easy to assess.</h6>
+                                    </div>
+                                    
+                                </div>
+                                <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ebe6e6'}}>
+                                    <div className="whyuseuscard">
+                                        <h6>
+                                            We have standardized many of our services into “legal packages” and for Small businesses and Freelancers, we have contract templates that can be easily purchased and free resources too.
+                                        </h6>
+                                    </div>
+                                    
+                                </div>
+                                <div className="col-lg-4 col-md-4"style={{backgroundColor:'#ddd5d5'}}>
+                                    <div className="whyuseuscard">
+                                        <h6>Our fees are affordable and always under a fixed price. </h6>
+                                        <h6>Our approach is personal and practical</h6>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* another section starts here */}
+                    <div className="">
+                        <div className="container" style={{paddingTop:'50px'}}>
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6 col-sm-12">
+                                    <div className="whyuseusfirst">
+                                        <p className="whyuseusfirstp1">When we prepare your Terms, Contracts or Agreements, we never use a standard format or copy and paste. We work closely with you to produce 
+                                            all documentation that is bespoke and specific to your industry and needs.
+                                        </p>
+                                        <p className="whyuseusfirstp2">Not only do we protect your business, but we promote it too. All the agreements we produce are so well-researched, easy to read and watertight that they
+                                            portray your business in the most positive and professional light possible.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-12">
+                                    <div className="whyuseussecond">
+                                        <h4>How we work</h4>
+                                        <p >We get to know you. We visit you. We listen and we learn. We find out what works well and what doesn’t. Next, we prepare drafts which address the relevant issues.
+                                            We take you through the document, clause by clause, word by word in plain English.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                    <div className="container">
-                        <h3 className="header-text text-center"> What we stand for</h3>
+                        {/* <h3 className="header-text text-center"> What we stand for</h3>
                         <hr className="header-text-hr" />
 
                         <div className="row about-row">
@@ -62,10 +119,10 @@ export class About extends Component {
                                 <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about3_qid1vf.jpg" alt="notseen" 
                                 width="50%" height="180" className="aboutpics"/>
                             </div>
-                        </div>
+                        </div> */}
                     
                             {/* second paragrapg */}
-                        <div className="row about-row">
+                        {/* <div className="row about-row">
                             
                             <div className="col-md-8  order-md-8  about-col" >
                                 <div className="">
@@ -80,10 +137,10 @@ export class About extends Component {
                                     width="100%" height="180" className="aboutpics" alt="notseen" />    
                             </div> 
                         </div>
-                            
+                             */}
                             {/* third para */}
 
-                        <div className="row about-row">
+                        {/* <div className="row about-row">
                             <div className="col-lg-8 col-md-12 col-sm-12 about-col">
                                 <div className="">
                                     <h4>We build relationships</h4>
@@ -95,10 +152,10 @@ export class About extends Component {
                                 <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about3_qid1vf.jpg" alt="notseen" 
                                 width="50%" height="180" className="aboutpics"/>
                             </div>
-                        </div>
+                        </div> */}
                             
                             {/* fourth para */}
-                        <div className="row about-row">
+                        {/* <div className="row about-row">
                             <div className="col-lg-8  about-col order-md-8">
                                 <h4 className="col-12">We promote values</h4>
                                 <div className="">
@@ -111,10 +168,10 @@ export class About extends Component {
                                     width="100%" height="180" className="aboutpics"/>
                                 
                             </div>
-                        </div> 
+                        </div>  */}
 
                             {/* fifth para */}
-                        <div className="row about-row">
+                        {/* <div className="row about-row">
                             <div className="col-lg-8 col-md-12 col-sm-12 about-col">
                                 <div className="">
                                     <h4>We are grounded</h4>
@@ -126,7 +183,7 @@ export class About extends Component {
                                 <img src="https://res.cloudinary.com/aitechma/image/upload/v1594810871/Consulting/about3_qid1vf.jpg" alt="notseen" 
                                 width="50%" height="180" className="aboutpics"/>
                             </div>
-                        </div>
+                        </div> */}
                    </div>
                 </div>
 
@@ -134,7 +191,7 @@ export class About extends Component {
                 
                
                {/* another section. this section is copied from testimony.js*/}
-               <Testimony />
+               {/* <Testimony /> */}
                 
             </div>
         )

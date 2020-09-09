@@ -80,12 +80,12 @@ export class Home1 extends Component {
                                     </p>
                                     <NavLink to='/service/business-entity' className="service-hover-link">view more</NavLink>
                                 </div>
-                            </div>
+                            </div> 
 
                             <div className="col-lg-3 col-md-6 col-sm-12 practice-area-col text-center">
                                 <div className=" practice-area-items">
                                     <div className="practice-area-logo"><RiBankLine className="practice-logo"/></div>
-                                    <div className="practice-area-title">Contract Drafting & Negotiation</div>
+                                    <div className="practice-area-title">Contract Drafting & <br /> Negotiation</div>
                                     <p className="practice-area-text">With our robust commercial background, we can draft and negotiate water -tight and easy 
                                         <span className="" style={{color:'#649200', letterSpacing:'8px', fontFamily:'Rubik',fontWeight:'bold'}}> ...</span>
                                     </p>
@@ -111,13 +111,10 @@ export class Home1 extends Component {
                                     </p>
                                     <NavLink to='/service/training' className="service-hover-link">view more</NavLink>
                                 </div>
-                            </div>
-
-                            <div className="col-lg-5 col-md-4 col-sm-12"></div>
-                            <div className="col-lg-2 col-md-4 col-sm-12" style={{paddingTop:'50px'}}>
-                                <NavLink to ="/service" exact className="button-primary">VIEW MORE</NavLink>
-                            </div>
-                            <div className="col-lg-5 col-md-4 col-sm-12"></div>
+                            </div>                            
+                        </div>
+                        <div className="text-center" style={{paddingTop:'30px'}}>
+                            <NavLink to ="/service" exact className="button-primary">VIEW MORE</NavLink>
                         </div>
                        
                    </div>
@@ -130,15 +127,26 @@ export class Home1 extends Component {
                            <div className="col-md-4 text-left" style={{fontWeight:'bold'}}>
                                 GET IN TOUCH NOW FOR YOUR FREE CONSULTATION
                            </div>
-                           <div className="col-md-3 offset-1  emergency-col emergencycol-2">
-                               <IoIosCall className="emergency-icons" />
-                               <div className="emergency-span">+234 907 838 0989, +234 810 129 6309 </div>
+                           <div className="col-lg-1 col-md-1"></div>
+                           <div className="col-md-7  emergency-col emergencycol-2">
+                                <IoIosCall className="emergency-icons" />
+                                <span className="emergency-span">+234 907 838 0989, +234 810 129 6309 </span>
+                               {/* <div className="row">
+                                   <div className="col-lg-6 col-md-6">
+                                       
+                                   </div>
+                                   <div className="col-lg-5 col-md-5">
+                                       <span  className="emergency-span"></span>
+                                   </div>
+                                    
+                               </div> */}
 
+                               <div className="">
+                                    <MdEmail className="emergency-icons" />
+                                    <span className="emergency-span">info@evernall.com</span>
+                               </div>
                            </div>
-                           <div className="col-md-4 emergency-col">
-                                <MdEmail className="emergency-icons" />
-                                <div className="emergency-span">info@evernall.com</div>
-                           </div>
+                        
                        </div>
                    </div>
                </div>
@@ -153,8 +161,8 @@ export class Home1 extends Component {
                                 </p>
 
                                 <h6 className="we-are-there-text2">
-                                    We stay with you through the years 
-                                    With our bond on commitment to our Clients, we take our time to understand our Client’s peculiarities and deliver legal work to match the same
+                                    We will stay with you through the years. Our bond,  
+                                   is our commitment to our Clients, we take our time to understand our Client’s peculiarities and deliver suitable work to match expectations
                                 </h6>
 
                                 <h4 className="we-are-there-title" style={{paddingTop:'30px'}}> Our Guarantee</h4>

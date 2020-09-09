@@ -7,9 +7,10 @@
 .footer-banner-text{
     color: white;
     font-family:  'Rubik', sans-serif;
-    font-size: 40px;
+    font-size: 37px;
     font-weight: bold;
     padding-bottom: 40px;
+    /* letter-spacing: 1px; */
 }
 .signUpButton{
     background-color:   #1e3f50;
