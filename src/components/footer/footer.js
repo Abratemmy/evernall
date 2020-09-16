@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './footer.css'
 import { NavLink } from 'react-router-dom';
-import {FaFacebookF, FaTwitter, FaInstagram} from 'react-icons/fa'
+import {FaFacebookF, FaInstagram} from 'react-icons/fa'
 
 export class Footer extends Component {
     render() {
@@ -10,13 +10,13 @@ export class Footer extends Component {
                 <div className="footer-banner">
                     <div className="container footer-banner-text">Do you want our business legal tips delivered to your inbox?</div>
                     <div >
-                        <a href="http://eepurl.com/ha4rc1" target="_blank" className="signUpButton"> Sign up here</a></div>
+                        <a href="http://eepurl.com/ha4rc1" target="_blank" rel="noopener noreferrer" className="signUpButton"> Sign up here</a></div>
                 </div>
             
                 <div className="footersection2">
                     <div className="container footer-container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-3 col-sm-12 footer-column">
+                            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="footer-title">Evernall</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text" style={{textAlign:'justify'}}>Evernall is a non-traditional Law Firm that provides dynamic legal solutions you need to grow your business in the present day Nigeria. From freelancing to startups,
@@ -24,7 +24,7 @@ export class Footer extends Component {
                                 </div>    
                             </div>
 
-                            <div className="col-lg-2 col-md-3 col-sm-12 offset-sm-1 footer-column">
+                            <div className="col-lg-2 col-md-5 col-sm-12 offset-lg-1 footer-column">
                                 <div className="footer-title">Navigation</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
@@ -39,7 +39,7 @@ export class Footer extends Component {
                                 </div>          
                             </div>
 
-                            <div className="col-lg- col-md-3 col-sm-12  footer-column">
+                            <div className="col-lg-3 col-md-6 col-sm-12  footer-column">
                                 <div className="footer-title">Contact Information</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
@@ -49,7 +49,7 @@ export class Footer extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-3 col-sm-12  footer-column">
+                            <div className="col-lg-3 col-md-6 col-sm-12  footer-column">
                                 <div className="footer-title">Opening Hours</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
@@ -63,9 +63,9 @@ export class Footer extends Component {
 
                         <div className="footer-social text-center">
                             <ul>
-                                <li><NavLink to="https://facebook.com" className="footer-Navlink"><FaFacebookF className="social-icons"/> </NavLink> </li>
-                                <li><NavLink to="https://twitter.com" className="footer-Navlink"><FaTwitter className="social-icons"/> </NavLink> </li>
-                                <li><NavLink to="https://instagram.com" className="footer-Navlink"><FaInstagram className="social-icons"/> </NavLink> </li>
+                                <li><a href="https://www.facebook.com/evernallcontractandlegalservices/" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaFacebookF className="social-icons"/> </a> </li>
+                                {/* <li><NavLink to="https://twitter.com" className="footer-Navlink"><FaTwitter className="social-icons"/> </NavLink> </li> */}
+                                <li><a href="https://instagram.com/legalforstartups?igshid=1n4tbwymo1al9" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaInstagram className="social-icons"/> </a> </li>
                             </ul>
                         </div>
 

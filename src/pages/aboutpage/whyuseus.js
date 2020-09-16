@@ -19,15 +19,25 @@ export class Whyuseus extends Component {
                     <div className="container teams" style={{paddingTop:'20px'}}>
                         <div className="card mb-3">
                             <div className="row no-gutters">
-                                <div className="col-md-4" >
-                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
+                                <div className="col-md-4 col-sm-12" >
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1600264060/Consulting/Managing_director_fd2rl2.png" className="card-img" alt="..."/>
                                 </div>
 
-                                <div className="col-md-8">
+                                <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
-                                        <h4 className="card-title">Mrs Uwanna</h4>
-                                        <h6 className="card-subtitle">Director</h6>
-                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
+                                        <h4 className="card-title">Unwana Utuk</h4>
+                                        <h6 className="card-subtitle">Managing Partner</h6>
+                                        <hr className="teams-hr"/>
+                                        <p className="card-text">With an LLM in International Commercial Law,  an expert member of the reputable International Association of Contract and Commercial Managers (IACCM)
+                                         in the United States and over 15 years experience in corporate/commercial law practice  across three industries, Unwana  has extensive experience in crafting company-wide business
+                                          processes, drafting/negotiating effective and smart contract templates. Unwana is also a CIPS certified Supply Chain Management Professional, also with wide experience in evolving
+                                           strategic techniques to procure goods and services, winning negotiations, cost modelling and vendor management. Unwana has prequalified and evaluated over 10000 vendor profiles/proposals
+                                            and from her experience, can tell off hand, the likelihood of a Vendor succeeding in any bidding round/tendering exercise.
+                                        </p>
+                                        <p className="card-text">As both a lawyer and a contracting/commercial expert, she has been exposed first-hand to the 
+                                        reason businesses succeed, and also fail – Her passion is to help small/medium businesses scale up for success in a competitive marketplace.
+                                        </p>
+                                        <p className="card-text">In her spare time Unwana enjoys, writing, reading and cooking.</p>
                                         {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
                                     </div>
                                 </div>                                
@@ -36,36 +46,35 @@ export class Whyuseus extends Component {
 
                         <div className="card mb-3">
                             <div className="row no-gutters">
-                                <div className="col-md-4" >
-                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
+                                <div className="col-md-4 col-sm-12" >
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1600264059/Consulting/Partner1_zqsjdq.png" className="card-img" alt="..."/>
                                 </div>
 
-                                <div className="col-md-8">
+                                <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
-                                        <h4 className="card-title">Mrs Uwanna</h4>
-                                        <h6 className="card-subtitle">Director</h6>
-                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
+                                        <h4 className="card-title">Richard Ezeife</h4>
+                                        <h6 className="card-subtitle">Partner</h6>
+                                        <hr className="teams-hr" />
+                                        <p className="card-text">Richard Ezeife is a legal practitioner with 20 years post Call experience. He has an LLM post graduate degree in International
+                                         Business Law from the University of Hull, an LLM in Petroleum Law and Policy and an  MBA in Oil and Gas Management, 
+                                            from the Centre for Energy, Mineral and Petroleum Law and Policy of the University of Dundee. 
+                                        </p>
+                                        <p className="card-text">He has a wide experience working in various sectors, in business law, petroleum arrangements, Project 
+                                            management, telecoms, Credits/Risk and Regulatory Compliance.
+                                        </p>
+                                        <p className="card-text">Richard has robust experience in corporate governance and is passionate about helping 
+                                            Companies evolve Business Strategies that are risk-proof, sustainable and compliant.
+                                        </p>
+                                        <p className="card-text">In his spare time Richard likes to play around at the gym,
+                                         is a boxing enthusiast and maintains an easy approach to life.
+                                         </p>
+
                                         {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
                                     </div>
                                 </div>                                
                             </div>
                         </div>
-                        <div className="card mb-3">
-                            <div className="row no-gutters">
-                                <div className="col-md-4" >
-                                    <img src="https://cdn.pixabay.com/photo/2012/02/23/08/40/beautiful-15728__340.jpg" className="card-img" alt="..."/>
-                                </div>
-
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h4 className="card-title">Mrs Uwanna</h4>
-                                        <h6 className="card-subtitle">Director</h6>
-                                        <p className="card-text">Uwanna has been a Graduate Member of the Chartered Institute of Legal Executives since 1995. She started her career in a solicitor’s office before moving to work in the legal department of a number of lift and escalator companies. There, she gained extensive experience in contract and project management before deciding to start Evernall in 2008.</p>
-                                        {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
-                                    </div>
-                                </div>                                
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                

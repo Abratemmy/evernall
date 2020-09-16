@@ -80,7 +80,7 @@ export class Service extends Component {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className="service-column">
-                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1595595017/Consulting/training_tszsmd.png" alt="not seen"
+                                <img src="https://res.cloudinary.com/aitechma/image/upload/v1600250799/Consulting/training_wgtctv.png" alt="not seen"
                                 className="service-pics" width="100%" height="300"/>
 
                                 <NavLink to='/service/training' className="navlink">

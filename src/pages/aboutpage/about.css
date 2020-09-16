@@ -127,12 +127,31 @@
 }
 .teams .card{
     border: none;
+    margin-bottom: 30px!important;
 }
 .teams .card-body{
     color: rgb(80, 79, 79);
 }
+.teams .card-body .card-subtitle{
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+}
+.teams .teams-hr{
+    border-bottom: 1px solid #649200;
+    position: relative;
+    top:-5px;
+    margin: 0px 0px 9px 0px!important;
+}
+.teams .card-body p{
+    font-size: 15px;
+    padding: 0px 0px!important;
+}
 .teams .card-text{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 25px;
+}
+.teams .col-md-4 img{
+    height: 400px;
+    width: 90%;
 }

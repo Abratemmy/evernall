@@ -6,13 +6,16 @@ export class Training extends Component {
         return (
             <div>
                 <AllserviceProps serviceprovided="Contract Management Services/Training" title="Contract Management Services/Training"
-                  image="https://res.cloudinary.com/aitechma/image/upload/v1595595017/Consulting/training_tszsmd.png">
+                  image="https://res.cloudinary.com/aitechma/image/upload/v1600250799/Consulting/training_wgtctv.png">
                     
 
                     <div className="each-service-page" >
                         <p>
-                        We offer cradle- to -grave Contract Management Solutions, you do not just have sign off contracts lying around unenforced and unmonitored. Our solutions provide safe repository
-                         for contracts, monitoring triggers up till payment and close out and online/onsite training options for your Staff on contract monitoring best practice.
+                        We offer cradle-to-grace Contract Management Solutions for the success of your business transactions. With us, you will no longer have 
+                        your signed off contracts lying around, unmonitored and unmanaged.</p>
+
+                        <p> Our solutions provide a safe repository for your contracts, create monitoring triggers to
+                          ensure you get paid on time and we also provide online and onsite contract drafting and contract management training to your personnel.
                         </p>
                     </div>
                 </AllserviceProps>

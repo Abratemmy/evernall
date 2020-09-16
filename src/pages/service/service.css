@@ -26,6 +26,9 @@
     float: right;
     font-size: 30px;
 }
+serviceprovided{
+    color: red;
+}
 
 /* css for the overall services ends here */
 /* css for allservicesprops starts here */

@@ -47,6 +47,7 @@ export class Navigation extends Component {
                             alt="evernall logo" width="100%" height="50" className="img-logo"/></NavLink> 
                         </div>
 
+                        
                         <Burger />
                         
                     </div>

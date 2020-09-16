@@ -46,7 +46,7 @@ function AllserviceProps({children, serviceprovided, title, image}) {
                         {children}
                     </div>
                
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <img src={image} alt="not seen" width="100%" height="350" />
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function AllserviceProps({children, serviceprovided, title, image}) {
 
             <div className="allservice-footer">
                 <div className="container allcontainer">
-                    <div className="allservice-footer-text">To find out more about how our {serviceprovided} can help protect
+                    <div className="allservice-footer-text">To find out more about how our <span className=""style={{fontWeight:'bold'}}>{serviceprovided}</span> can help protect
                      and promote your business, call us today on <span className="allservice-footer-text-span">+234 907 838 0989 ,  +234 810 129 6309 </span> 
                       or <span className="allservice-footer-text-span">info@evernall.com </span>
                     </div>

@@ -53,7 +53,7 @@ export class Home1 extends Component {
                            <div className="row">
                                <div className="col-lg-8">
                                     <h2 className="background-header">Topnotch Commercial Support</h2>
-                                    <p>We bring over 25 years in business and legal risk assessment and mitigation across various industries </p>
+                                    <p>We bring over 35 years in business and legal risk assessment and mitigation across various industries </p>
                                    <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>                            
                                </div>
                            </div>

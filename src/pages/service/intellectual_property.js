@@ -11,8 +11,8 @@ export class Intellectualproperty extends Component {
 
                     <div className="each-service-page" >
                         <p>
-                        Your intellectual property (IP) is one of your most valuable assets. We can help you identify
-                         your IP is, teach you how to protect it, file applications with the Nigerian Trademark Office, and more.
+                        Your Intellectual property (IP) is one of your most valuable assets. We can help you identify
+                         your IP, teach you how to protect it, file applications with the Nigerian Trademark Office, and more.
                         </p>
                     </div>
                 </AllserviceProps>

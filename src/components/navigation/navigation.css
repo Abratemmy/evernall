@@ -55,7 +55,8 @@
     width:100%;
     padding:20px 0px 30px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between!important;
+    
     
 }
 .navbar ul{
@@ -85,13 +86,17 @@
 
 
 /* css for the burger */
+.scrolled .burger{
+    top: 55px !important;
+    position: fixed;
+}
 .burger{
     width: 2rem;
     height: 2rem;
     position: fixed;
-    top: 40px !important;
+    top: 30px !important;
     right: 20px;display: flex;
-    justify-content: space-around;
+    justify-content: space-around!important;
     flex-flow: column nowrap;
     /* z-index: 20; */
     display:none;
@@ -101,6 +106,7 @@
     width: 2rem;
     height: 0.25rem;
     border-radius: 10px;
+    justify-content: flex-end;
 }
 .dropdown-content{
     display: none;
@@ -117,7 +123,7 @@
     display: block;
 }
 .dropdown-content .afirst{
-    margin-top: 34px;
+    margin-top: 32px;
 }
 .dropdown-content .service-dropdown{
     color: #1e3f50;

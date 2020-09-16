@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './contact.css';
 import {NavLink} from 'react-router-dom';
-import {FaTwitter, FaInstagram, FaFacebookF} from 'react-icons/fa';
+import {FaInstagram, FaFacebookF} from 'react-icons/fa';
 import ReCaptcha from 'react-recaptcha';
 import {
     InfoWindow,
@@ -71,7 +71,7 @@ export class Contact extends Component {
                             <div className="contact-banner-div">
                                 <div className="contact-banner-title">Phone</div>
                                 <div className="contact-banner-text">Feel free to contact us </div>
-                                <div className="contact-banner-text1">+234 807 8793 832</div>
+                                <div className="contact-banner-text1">+234 907 838 0989 , +234 810 129 6309</div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 contact-banner-col">
@@ -95,7 +95,7 @@ export class Contact extends Component {
                                 <div className="contact-details-address">3rd floor Mulliner Towers, 39 Alfred Rewane road, Ikoyi Lagos</div>
 
                                 <div className="contact-details-subtitle">Call Us Today</div>
-                                <div className="contact-detail-span"> +234 807 8793 832 </div>
+                                <div className="contact-detail-span"> +234 907 838 0989 , +234 810 129 6309</div>
                                 <div className="contact-details-subtitle">Email Us </div>
                                 <div className="contact-detail-span">info@evernall.com</div>
 
@@ -103,9 +103,9 @@ export class Contact extends Component {
                                 <div className="contact-detail-span">Mon -Thurs: 9:00AM - 5:00PM< br /> Fri: 10:00AM- 4:00PM<br />  Sat  12:00PM-5:00PM</div>
                                 <div className="contact-social text-left no-margin">
                                     <ul>
-                                        <li><NavLink to="https://facebook.com" className="contact-Navlink" style={{paddingRight: '12px'}}><FaFacebookF className="contact-social-icons"/> </NavLink> </li>
-                                        <li><NavLink to="https://twitter.com" className="contact-Navlink contact-Navlink1"><FaTwitter className="contact-social-icons contact-social-icons1"/> </NavLink> </li>
-                                        <li><NavLink to="https://instagram.com" className="contact-Navlink contact-Navlink1"><FaInstagram className="contact-social-icons contact-social-icons1 text-right"/> </NavLink> </li>
+                                        <li><a href="https://www.facebook.com/evernallcontractandlegalservices/"target="_blank" rel="noopener noreferrer" className="contact-Navlink"><FaFacebookF className="contact-social-icons"/> </a> </li>
+                                        {/* <li><NavLink to="https://twitter.com" className="contact-Navlink contact-Navlink1"><FaTwitter className="contact-social-icons contact-social-icons1"/> </NavLink> </li> */}
+                                        <li><a href="https://instagram.com/legalforstartups?igshid=1n4tbwymo1al9" target="_blank" rel="noopener noreferrer" className="contact-Navlink contact-Navlink1"><FaInstagram className="contact-social-icons contact-social-icons1 text-right"/> </a> </li>
                                     </ul>
                                 </div>
                             </div>
