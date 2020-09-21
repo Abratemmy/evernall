@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/evernall/static/css/main.9af1ce99.chunk.css",
-    "main.js": "/evernall/static/js/main.9cd76441.chunk.js",
-    "main.js.map": "/evernall/static/js/main.9cd76441.chunk.js.map",
+    "main.css": "/evernall/static/css/main.69657ae6.chunk.css",
+    "main.js": "/evernall/static/js/main.5a71f377.chunk.js",
+    "main.js.map": "/evernall/static/js/main.5a71f377.chunk.js.map",
     "runtime-main.js": "/evernall/static/js/runtime-main.cbd964ee.js",
     "runtime-main.js.map": "/evernall/static/js/runtime-main.cbd964ee.js.map",
     "static/css/2.579b7688.chunk.css": "/evernall/static/css/2.579b7688.chunk.css",
-    "static/js/2.0fd6f3f9.chunk.js": "/evernall/static/js/2.0fd6f3f9.chunk.js",
-    "static/js/2.0fd6f3f9.chunk.js.map": "/evernall/static/js/2.0fd6f3f9.chunk.js.map",
+    "static/js/2.6036eb9f.chunk.js": "/evernall/static/js/2.6036eb9f.chunk.js",
+    "static/js/2.6036eb9f.chunk.js.map": "/evernall/static/js/2.6036eb9f.chunk.js.map",
     "index.html": "/evernall/index.html",
-    "precache-manifest.39e0b09d883be6a96accca8b0f01475d.js": "/evernall/precache-manifest.39e0b09d883be6a96accca8b0f01475d.js",
+    "precache-manifest.2e4af7c16db8ffde33a0567c36ae5fb7.js": "/evernall/precache-manifest.2e4af7c16db8ffde33a0567c36ae5fb7.js",
     "service-worker.js": "/evernall/service-worker.js",
     "static/css/2.579b7688.chunk.css.map": "/evernall/static/css/2.579b7688.chunk.css.map",
-    "static/css/main.9af1ce99.chunk.css.map": "/evernall/static/css/main.9af1ce99.chunk.css.map",
-    "static/js/2.0fd6f3f9.chunk.js.LICENSE.txt": "/evernall/static/js/2.0fd6f3f9.chunk.js.LICENSE.txt",
+    "static/css/main.69657ae6.chunk.css.map": "/evernall/static/css/main.69657ae6.chunk.css.map",
+    "static/js/2.6036eb9f.chunk.js.LICENSE.txt": "/evernall/static/js/2.6036eb9f.chunk.js.LICENSE.txt",
     "static/media/faq.css": "/evernall/static/media/arrows.bf610f5e.PNG",
     "static/media/image-1.PNG": "/evernall/static/media/image-1.0a852183.PNG",
     "static/media/image-2.PNG": "/evernall/static/media/image-2.e06e59f7.PNG",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.cbd964ee.js",
     "static/css/2.579b7688.chunk.css",
-    "static/js/2.0fd6f3f9.chunk.js",
-    "static/css/main.9af1ce99.chunk.css",
-    "static/js/main.9cd76441.chunk.js"
+    "static/js/2.6036eb9f.chunk.js",
+    "static/css/main.69657ae6.chunk.css",
+    "static/js/main.5a71f377.chunk.js"
   ]
 }
