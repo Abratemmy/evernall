@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './footer.css'
 import { NavLink } from 'react-router-dom';
-import {FaFacebookF, FaInstagram} from 'react-icons/fa'
+import {FaFacebookF,FaTwitter,FaLinkedin, FaInstagram} from 'react-icons/fa'
 
 export class Footer extends Component {
     render() {
@@ -53,7 +53,7 @@ export class Footer extends Component {
                                 <div className="footer-title">Opening Hours</div>
                                 <hr className="footer-hr"/>
                                 <div className="footer-text">
-                                    <h6 className="">Mon -Thurs: 9:00AM - 5:00PM</h6>
+                                    <h6 className="" style={{padding:'0px'}}>Mon -Thurs: 9:00AM - 5:00PM</h6>
                                     <div className="" >Fri: 10AM- 4PM</div>
                                     <div className="">Sat  12PM-5PM</div>
                                 </div>
@@ -64,8 +64,10 @@ export class Footer extends Component {
                         <div className="footer-social text-center">
                             <ul>
                                 <li><a href="https://www.facebook.com/evernallcontractandlegalservices/" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaFacebookF className="social-icons"/> </a> </li>
-                                {/* <li><NavLink to="https://twitter.com" className="footer-Navlink"><FaTwitter className="social-icons"/> </NavLink> </li> */}
+                                <li><a href="https://twitter.com/EvernallLegal"target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaTwitter className="social-icons"/> </a> </li>
                                 <li><a href="https://instagram.com/legalforstartups?igshid=1n4tbwymo1al9" target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaInstagram className="social-icons"/> </a> </li>
+                                <li><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHZ0QozukuqPAAAAXSsSCuIs3CVrmxbqlopOPJyyHajbClPZr-TBcPLe0txUzCS0XsN_Wup5aZmZsOQny-0a3sO4Wl8nW4wfUnvQF1b74R6dmTxbTdWdWBeBcyMFP5n0AiJQvU=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fevernall-contract-and-legal-services%2Fabout%2F"
+                                target="_blank" rel="noopener noreferrer" className="footer-Navlink"><FaLinkedin className="social-icons"/> </a></li>
                             </ul>
                         </div>
 

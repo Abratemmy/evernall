@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './contact.css';
 import {NavLink} from 'react-router-dom';
-import {FaInstagram, FaFacebookF} from 'react-icons/fa';
+import {FaInstagram,FaTwitter,FaLinkedin, FaFacebookF} from 'react-icons/fa';
 import ReCaptcha from 'react-recaptcha';
 import {
     InfoWindow,
@@ -101,11 +101,13 @@ export class Contact extends Component {
 
                                 <div className="contact-details-subtitle">Opening Hour</div>
                                 <div className="contact-detail-span">Mon -Thurs: 9:00AM - 5:00PM< br /> Fri: 10:00AM- 4:00PM<br />  Sat  12:00PM-5:00PM</div>
-                                <div className="contact-social text-left no-margin">
+                                <div className="contact-social text-left ">
                                     <ul>
                                         <li><a href="https://www.facebook.com/evernallcontractandlegalservices/"target="_blank" rel="noopener noreferrer" className="contact-Navlink"><FaFacebookF className="contact-social-icons"/> </a> </li>
-                                        {/* <li><NavLink to="https://twitter.com" className="contact-Navlink contact-Navlink1"><FaTwitter className="contact-social-icons contact-social-icons1"/> </NavLink> </li> */}
+                                        <li><a href="https://twitter.com/EvernallLegal"target="_blank" rel="noopener noreferrer" className="contact-Navlink contact-Navlink1"><FaTwitter className="contact-social-icons contact-social-icons1"/> </a> </li>
                                         <li><a href="https://instagram.com/legalforstartups?igshid=1n4tbwymo1al9" target="_blank" rel="noopener noreferrer" className="contact-Navlink contact-Navlink1"><FaInstagram className="contact-social-icons contact-social-icons1 text-right"/> </a> </li>
+                                        <li><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHZ0QozukuqPAAAAXSsSCuIs3CVrmxbqlopOPJyyHajbClPZr-TBcPLe0txUzCS0XsN_Wup5aZmZsOQny-0a3sO4Wl8nW4wfUnvQF1b74R6dmTxbTdWdWBeBcyMFP5n0AiJQvU=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fevernall-contract-and-legal-services%2Fabout%2F"
+                                        target="_blank" rel="noopener noreferrer" className="contact-Navlink contact-Navlink1"><FaLinkedin className="contact-social-icons contact-social-icons1"/> </a> </li>
                                     </ul>
                                 </div>
                             </div>
