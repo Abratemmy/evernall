@@ -117,8 +117,49 @@ export class Contact extends Component {
                             <div className="contact-form" >
                                 <div className="container">
                                     <h3 className="contact-form-title">Got a question? Give us a call or contact us below</h3>
-                                    <form>
-                                        <div className="row">
+ {/* Begin Mailchimp Signup Form  */}
+<div id="mc_embed_signup">
+<form action="https://evernall.us17.list-manage.com/subscribe/post?u=07afcc7e8c92a0f938b253227&amp;id=da06903817" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate"  >
+    <div id="mc_embed_signup_scroll">
+	<h2>Got a question? Give us a call or contact us below</h2>
+<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+<div className="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span className="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" />
+</div>
+<div className="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" className="" id="mce-FNAME"/>
+</div>
+<div className="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" className="" id="mce-LNAME"/>
+</div>
+<div className="mc-field-group size1of2">
+	<label for="mce-BIRTHDAY-month">Birthday  <span className="asterisk">*</span>
+</label>
+	<div class="datefield">
+		<span className="subfield monthfield"><input className="birthday required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"/></span> / 
+		<span className="subfield dayfield"><input className="birthday required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"/></span> 
+		<span className="small-meta nowrap">( mm / dd )</span>
+	</div>
+</div>	<div id="mce-responses" className="clear">
+		<div className="response" id="mce-error-response" style={{display:'none'}}></div>
+		<div className="response" id="mce-success-response" style={{display:'none'}}></div>
+	</div>   
+     {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
+    <div style={{position: 'absolute', left: '-5000px', ariaHidden:'true'}}><input type="text" name="b_07afcc7e8c92a0f938b253227_da06903817" tabindex="-1" value=""/></div>
+    <div className="clear"><input type="submit" value="Subscribe" name="submit" id="mc-embedded-subscribe" class="button"/></div>
+    </div>
+</form>
+</div>
+
+{/* <!--End mc_embed_signup--> */}
+                                    {/* <form> */}
+
+                                        
+                                        {/* <div className="row">
                                             <div className="col-md-6">
                                                 <input type="text" rules="required|max:255" name="firstname"placeholder="First Name"  className="inputfield"/>
                                             </div>
@@ -140,10 +181,10 @@ export class Contact extends Component {
                                                    <div className="row">
                                                        <div className="col-md-1 col-sm-1"><input type="checkbox" name="checkbox"className="checkbox" /></div>
                                                        <div className="col-md-11 col-sm-11">
-                                                       <span className="">Please tick this box to accept our privacy policy. Evernall Consultancy Ltd are committed to protecting your <span className="privacy"><NavLink to='/privacy'> privacy</NavLink> </span>  and shall only use the information you provide on this page to respond to your enquiry. 
+                                                       <span className="">Please tick this box to accept our privacy policy. Evernall Consultancy Ltd are committed to protecting your <span className="privacy"><NavLink to='/privacypolicy'> privacy</NavLink> </span>  and shall only use the information you provide on this page to respond to your enquiry. 
                                                      <br />
                                                      
-                                                      <h6 style={{padding: '30px 0px 10px 0px', fontWeight:'normal'}}> We take your privacy seriously our privacy policy can be found <span className="privacy"><NavLink to='/privacy'>HERE.</NavLink></span>
+                                                      <h6 style={{padding: '30px 0px 10px 0px', fontWeight:'normal'}}> We take your privacy seriously our privacy policy can be found <span className="privacy"><NavLink to='/privacypolicy'>HERE.</NavLink></span>
                                                      </h6>  </span>
                                                        </div>
                                                    </div>
@@ -170,9 +211,9 @@ export class Contact extends Component {
                                             <div className="col-md-4 ">
                                                 
                                             </div>
-                                        </div>
+                                        </div> */}
                                         
-                                    </form>
+                                    {/* </form> */}
                                 </div>
                             </div>
                         </div>

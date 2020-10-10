@@ -1,0 +1,28 @@
+.footer-palava-list ol{
+    margin:20px!important;
+    padding:0px!important;
+}
+.disclaimer-title{
+    font-family:  'Rubik', sans-serif;
+    font-size: 19px;
+    color: #1e3f50;
+}
+.disclaimer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(117, 115, 115);
+    line-height: 27px;
+    padding: 10px 0px 5px 0px;
+}
+.disclaimer-sublist ul{
+    padding: 10px!important;
+    margin: 10px!important;
+}
+.disclaimer-sublist ul li{
+    padding: 5px 0px 5px 0px;
+    color:rgb(148, 144, 144);
+}
+.footer-palava-text-bold{
+    font-weight: bold;
+    color:rgb(92, 91, 91);
+}

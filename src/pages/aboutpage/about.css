@@ -94,7 +94,7 @@
 }
 /* testimonial */
 .aboutdropdown-testimonial{
-    padding: 10% 0 8% 0;
+    padding: 5% 0 3% 0;
    
 }
 /* .main-grid{
@@ -105,15 +105,19 @@
     grid-auto-flow: column;
 } */
 .main-testimonial{
-    background-color:  #425a0d;
-    
+    background-color:  #425a0d;  
+}
+.main-testimonial p{
+    line-height: 30px;
+    color: rgb(77, 75, 75);
 }
 .main-testimony{
     overflow:hidden;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
-    padding-top: 20px;   
+    padding-top: 20px; 
+    height: fit-content;  
 }
 .testimony-name{
     text-align:center;

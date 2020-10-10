@@ -12,7 +12,7 @@ export class Otherpagesbg extends Component {
    }
     render(title, subtitle) {
         return (
-            <div>
+            <div className="">
                 <div className="about-background text-center">
                     <h1 className="otherpages-title wow animate__slideInUp"  data-wow-duration="2s">{this.props.title}</h1>
                     <div className="otherpages-subtitle wow animate__fadeInUp">{this.props.subtitle}</div>

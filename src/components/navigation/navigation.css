@@ -36,7 +36,7 @@
     height: 120px;
     transition: 0.25s ;
     background-color: transparent;
-    z-index: 100;
+    z-index: 1;
     overflow: 100% !important;
     
 }
@@ -160,6 +160,7 @@
         z-index: 1;
       
     }
+    UL
     .nav-link{
         color: white;
     }
@@ -197,8 +198,16 @@
         right:13%;
     }
 }
+/* @m
+edia (max-width: 780px){
+    .dropdown-content{
+        display:block;  
+    }
+} */
 
-
+.small-device-icon-dropdown{
+    display: none;
+}
 @media (max-width: 900px){
     .nav-hidden-when-scrolled{
         display:none;
@@ -206,7 +215,7 @@
     .burger{
         width: 2rem;
         height: 2rem;
-        top:45px !important;
+        top:40px !important;
         display: flex;
         justify-content: space-around;
         flex-flow: column ;

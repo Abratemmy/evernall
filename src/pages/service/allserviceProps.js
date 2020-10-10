@@ -1,4 +1,5 @@
 import React from 'react';
+import './service.css';
 // import { NavLink } from 'react-router-dom';
 // import Otherpagesbg from '../otherpagesbg';
 
@@ -30,7 +31,7 @@ function AllserviceProps({children, serviceprovided, title, image}) {
             {/* <div className="container" style={{padding:'70px 0px 60px 0px'}}>
                 {children}
             </div> */}
-            <div className="" style={{marginTop:'40px', backgroundColor:'#ebe6e6'}}>
+            <div className="backgroundtitlecolor" style={{marginTop:'0px', backgroundColor:''}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-7 aboutdropdown-testimonial">

@@ -6,29 +6,37 @@ function Faqs(index) {
     const [faqs,setfaqs] = useState([
 
         {
-            question:'Who are the people that can go into consulting?',
-            answer:'anyone, so far the person have knowledge ',
+            question:'Why is Evernall a different kind of law Firm?',
+            answer:'Evernall is not only risk-focused but commercially minded and very dynamics in its approach. We work with our Clients from business infancy to growth mode and leverage very heavily on technology and easy-to – use templates (with guidance notes), to give you more ease, in terms of cost and timelines.',
             open:false
         },
         {
-            question:'Who are the people to consult?',
-            answer:'There is no age barrier. You can give legal advise to anyone that walk up to you',
+            question:'Do I have to run a thriving business before engaging with Evernall? ',
+            answer:'No. From the point of ideation, you need the partnership of Evernall – like a mid-wife, to help you birth your brilliant ideas, totally risk-free and on a sure-footed platform. ',
+            answer1:'We are commercially savvy and are not so strict as not to give you practical tips here and there, to help you stand upright, in your business.',
             open:false
         },
 
         {
-            question:"What are Evernall's operating hours?",
-            answer:"We work from Monday to Friday. 9am - 4pm",
+            question:"Must I engage the whole range of Evernall’s Services? What if I just need a Contract drafted or a simple document review? ",
+            answer:"All Services are tailor- made and can be called out independently or in suites. For instance, we can handle only an aspect of contracting that you require – contract review, negotiations, contract drafting, training, contract management etc or we can handle the whole pack of it. ",
+            answer1:"Our retainership rates are quite affordable and inclusive – we base our offerings on where you are in business, such that there are packages for Freelancers, Small business owners etc",
+            answer2:"Sometimes, we may suggest a legal audit (which is a simple process) first, so that we can do a gap-analysis and advise on what Services you require to scale up.",
             open:false
         },
         {
-            question:"What makes Evernall different?",
-            answer:"Our Solutions are practical and accessible and are tailored to meet real life situation that any business may face.",
+            question:"How are Clients billed, at Evernall – What if I cannot afford the Services? ",
+            answer:"Evernall’s prices are arguable the lowest in this terrain, considering the expertise and quality of work put into the job. Billing is done per job and not on an hourly or day-rate basis. ",
+            answer1:"Payments for retainership or packages can be made in instalments too.",
             open:false
         },
         {
-            question:"How bespoke are the contract?",
-            answer:"Our contracts are tailored to your business because we develop them collaboratively with you. There are no generic terms and if we’ve missed something you get two free edits. Don’t say we don’t treat you!",
+            question:"How does Evernall, partner with budding entrepreneurs and business owners to manage their risk? ",
+            answer:"Evernall will draw up a legal risk map for your business and how to avert all risk ",
+            answer1:'Each risk will carry an affordable or free remedy – best if you know and plan ahead for them',
+            answer2:'Otherwise, you can have access to Evernall template suites to manage all aspects of your startup and growing business',
+            answer3:'We can also design negotiation templates for your transactions, if you cannot afford to pay the full range of the fees.',
+            answer4:'Basically, our goal is for you to succeed, so that we can win together. We have dynamic solutions therefore, tailored to make you succeed while still getting the best – in- class of Materials and Services.',
             open:false
         }    
 
@@ -58,6 +66,13 @@ function Faqs(index) {
 
                         <div className="faq-answer">
                      {faq.answer}
+                        <div className="remaining-answer" >
+
+                            <div style={{marginTop:'20px'}}>{faq.answer1}</div>
+                            <div style={{marginTop:'20px'}}>{faq.answer2}</div>
+                            <div style={{marginTop:'20px'}}>{faq.answer3}</div>
+                            <div style={{marginTop:'20px'}}>{faq.answer4}</div>
+                        </div>
                     </div>
 
                     </div>

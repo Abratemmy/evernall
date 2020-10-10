@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import styled from 'styled-components';
+import {FaFacebookF} from 'react-icons/fa';
 
 import {NavLink} from 'react-router-dom';
 
@@ -36,16 +37,17 @@ const Burger = () => {
     const [open, setOpen] = useState(false)
     return (
         <>
-            <StyledBurger className="burger " open={open} onClick={()=>setOpen (!open)}>
+            <StyledBurger className="burger " open={open} onClick={()=>setOpen (!open)} >
                 <div className="burgerdiv"></div>
                 <div className="burgerdiv"></div>
                 <div className="burgerdiv"></div>
             </StyledBurger>
-            <div>
+            <div >
                 
                <UL open={open}>
                    <li><NavLink to ="/evernall" exact  className="nav-link">Home</NavLink> </li>
-                   <li><NavLink to ="/about" className="nav-link .nav-linkdrop">About Us
+                   <li className="dropbtn"><NavLink to ="/about" className="nav-link .nav-linkdrop">About Us
+                    <span className="small-device-icon-dropdown"><FaFacebookF /></span>
                         </NavLink>
                         <div className="dropdown-content">
                             <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Our Team</NavLink>
@@ -65,7 +67,7 @@ const Burger = () => {
                         </div>
                        
                     </li>
-                   <li><NavLink to ="/blog/law-order" exact className="nav-link">Blog</NavLink></li>
+                   {/* <li><NavLink to ="/blog/law-order" exact className="nav-link">Blog</NavLink></li> */}
                    <li><NavLink to ="/faq"exact className="nav-link">FAQ</NavLink></li>
                    <li><NavLink to ="/contact" exact className="nav-link">Contact Us</NavLink></li>
                </UL></div>

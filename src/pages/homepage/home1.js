@@ -37,11 +37,14 @@ export class Home1 extends Component {
                    <div className=" background-pictures background-image1" style={{}}>
                        <div className="animated slideInDown background-text container" style={{animationDelay:'1s'}} >
                            <div className="row">
-                               <div className="col-lg-7 ">
-                                    <h2 className="background-header">Trusted Legal Services</h2>
-                                    <p>We provide dynamic legal solutions you need to grow your business in the present day Nigeria.</p>                     
-                            
-                                           <Link to ="/contact"  className="button-primary"style={{marginTop:'5px'}}>CONTACT US</Link> 
+                               <div className="col-lg-7 col-md-7 col-sm-12">
+                                   <div className="">
+                                        <h2 className="background-header">Trusted Legal Services</h2>
+                                        <p>We provide dynamic legal solutions you need to grow your business in the present day Nigeria.</p>                     
+                                        <div className="home-background-link">
+                                        <Link to ="/contact"  className="button-primary text-center"style={{marginTop:'5px'}}>CONTACT US</Link> 
+                                        </div>
+                                    </div>
                                </div>
                            </div>
                             
@@ -51,10 +54,14 @@ export class Home1 extends Component {
                    <div className="background-pictures background-image2 ">
                        <div className= " background-text container" >
                            <div className="row">
-                               <div className="col-lg-8">
-                                    <h2 className="background-header">Topnotch Commercial Support</h2>
-                                    <p>We bring over 35 years in business and legal risk assessment and mitigation across various industries </p>
-                                   <NavLink to ="/contact" exact className="button-primary">CONTACT US</NavLink>                            
+                               <div className="col-lg-8 col-md-8 col-sm-12">
+                                   <div className="container">
+                                        <h2 className="background-header">Topnotch Commercial Support</h2>
+                                        <p>We bring over 35 years in business and legal risk assessment and mitigation across various industries </p>
+                                        <div className="home-background-link">
+                                            <Link to ="/contact" exact className="button-primary"style={{marginTop:'5px'}}>CONTACT US</Link>                            
+                                        </div>
+                                   </div>
                                </div>
                            </div>
                             
@@ -65,7 +72,7 @@ export class Home1 extends Component {
                </Slider>
 
                {/* another section starts here */}
-               <div className="container-fluid" style={{paddingBottom:'70px'}}>
+               <div className="" style={{paddingBottom:'70px'}}>
                    <div className="container">
                        <h5 className="header-text text-center">Our  Services</h5>
                        <hr className="header-text-hr" />
@@ -152,7 +159,7 @@ export class Home1 extends Component {
                </div>
 
                {/* another secton start here, we are there for you */}
-               <div className="container-fluid" style={{paddingBottom:'70px'}}>
+               <div className="" style={{paddingBottom:'70px'}}>
                    <div className="container  we-are-there">
                        <div className="row">
                            <div className="col-md-6 col-sm-12">
@@ -184,7 +191,7 @@ export class Home1 extends Component {
 
 
                {/* another section starts here activity blogs */}
-               <div className="container-fluid" style={{paddingBottom:'60px'}}>
+               {/* <div className="container-fluid" style={{paddingBottom:'60px'}}>
                    <div className="container">
                        <h3 className="header-text text-center">Find out about our activities on our blog </h3>
                        <hr className="header-text-hr" />
@@ -254,8 +261,8 @@ export class Home1 extends Component {
                                 </div>
                            </div>
                        </div>
-                   </div>
-               </div>
+                   </div> 
+                </div> */}
             </div>
         )
     }

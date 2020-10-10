@@ -17,6 +17,9 @@ import Blog from '../pages/blogpage/blog.js';
 import Whyuseus from '../pages/aboutpage/whyuseus.js';
 import Testimonial from '../pages/aboutpage/Testimonial.js';
 import Businesslegal from '../pages/service/business_legal.js';
+import Terms from './footerpolicy/terms.js';
+import Privacypolicy from './footerpolicy/privacypolicy.js';
+import Disclamer from './footerpolicy/disclamer.js';
 
 const Router = ()=>(
     <Switch>
@@ -40,6 +43,11 @@ const Router = ()=>(
         {/* route for aboutpage */}
         <Route exact path ='/about/whyuseus' component={Whyuseus} />
         <Route exact path ='/about/testimonial' component={Testimonial} />
+
+        {/* footer palava */}
+        <Route exact path='/disclaimer' component={Disclamer} />
+        <Route exact path ='/termsofuse'  component={Terms} />
+        <Route exact path = '/privacypolicy' component={Privacypolicy}/>
         
 
         

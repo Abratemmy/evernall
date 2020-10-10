@@ -4,7 +4,7 @@ export class Whyuseus extends Component {
     render() {
         return (
             <div className="">
-                <div className="" style={{marginTop:'40px',  backgroundColor:'#ebe6e6'}}>
+                <div className="" style={{marginTop:'0px',  backgroundColor:'#ebe6e6'}}>
                     <div className="container" >
                         <div className="row">
                             <div className="col-lg-7 col-md-7 aboutdropdown-testimonial">
@@ -47,7 +47,7 @@ export class Whyuseus extends Component {
                         <div className="card mb-3">
                             <div className="row no-gutters">
                                 <div className="col-md-4 col-sm-12" >
-                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1600264059/Consulting/Partner1_zqsjdq.png" className="card-img" alt="..."/>
+                                    <img src="https://res.cloudinary.com/aitechma/image/upload/v1602260633/Consulting/team1_lotmq5.png" className="card-img" alt="..."/>
                                 </div>
 
                                 <div className="col-md-8 col-sm-12">

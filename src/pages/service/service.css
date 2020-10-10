@@ -26,10 +26,11 @@
     float: right;
     font-size: 30px;
 }
-serviceprovided{
-    color: red;
-}
 
+.backgroundtitlecolor{
+    background:#ebe6e6;
+    height: 240px;
+}
 /* css for the overall services ends here */
 /* css for allservicesprops starts here */
 /* .allserviceslinks{

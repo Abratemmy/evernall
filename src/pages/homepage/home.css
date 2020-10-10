@@ -4,6 +4,7 @@
 }
 .background-image2{
     background: linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1597669024/Consulting/backgr2_ubd3bc.png");
+    height: 500px;
 }
 
 .background-pictures{
@@ -159,34 +160,51 @@
 
 /* another section starts here what-clients says starts here */
 .what-client-says{
-    background: url("https://res.cloudinary.com/aitechma/image/upload/v1594297119/Consulting/clientsays_cozvxn.png");
+    background:linear-gradient(180deg, rgba(4, 61, 83, 0.443), rgba(10, 53, 82, 0.443)), url("https://res.cloudinary.com/aitechma/image/upload/v1594297119/Consulting/clientsays_cozvxn.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 .slick-slide img{
     display: block;
     text-align: center;
 }
+.slider-arrow{
 
-.whatclientsaysdiv{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    left: 42%;
 }
-.whatclientsaysdiv .whatClientsaysPic{
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
+.slider-arrow button{
+    border: none;
+    margin: 0px 40px 40px 40px;
+    /* margin-top: 10px; */
+    background-color: transparent;
 }
-.whatclientsaysrow h4{
-    font-size: 25px!important;
-    padding-top: 25px !important;
+.slider-arrow .slider-arrow-left, .slider-arrow .slider-arrow-right{
+    font-size: 30px;
+    color:white;
+    transition: 0.4s all ease;
 }
-.whatclientsaysrow  p{
-  padding: 12px 18% 13px 18%;
+.slider-arrow .slider-arrow-left:hover, .slider-arrow .slider-arrow-right:hover{
+    color:#649200;
+}
+.slider-whatClientsays p{
+    color: rgb(44, 43, 43);
+    line-height: 30px;   
+    min-height: auto;
+}
+.slider-col{
+    height: fit-content;
+}
+.slider-whatClientsays .name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.slider-whatClientsays .job{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
 }
 /* css for homepage blog */
 .blog-card-img{
@@ -244,4 +262,47 @@
     width: 30%;
     position: relative;
     top: -10px;
+}
+/* css for media query */
+@media screen and (max-width: 780px){
+    .background-pictures{
+        height: 450px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color:white;
+    }
+    .background-header{
+        font-size: 47px;
+    }
+    .background-text{
+        text-align: inherit;
+        padding-top: 60px;
+    }
+    .background-text p{
+        /* min-width: 380px; */
+        
+      }
+    .background-text p{
+        font-size: 20px;
+        letter-spacing: 0px;
+        color:rgb(214, 213, 213);
+        font-family: 'Open Sans', sans-serif;
+        padding:0px 0px 0px 10px;
+        max-width: 350px;
+        
+    }
+    .home-background-link{
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .background-image2{
+        background: linear-gradient(180deg, rgba(6, 66, 77, 0.443), rgba(12, 60, 61, 0.443)),url("https://res.cloudinary.com/aitechma/image/upload/v1597669024/Consulting/backgr2_ubd3bc.png");
+        height: 500px;
+    }
+    /* body{
+        display: none;
+    } */
 }
