@@ -7,7 +7,7 @@ function Faqs(index) {
 
         {
             question:'Why is Evernall a different kind of law Firm?',
-            answer:'Evernall is not only risk-focused but commercially minded and very dynamics in its approach. We work with our Clients from business infancy to growth mode and leverage very heavily on technology and easy-to – use templates (with guidance notes), to give you more ease, in terms of cost and timelines.',
+            answer:'Evernall is not only risk-focused but commercially minded and very dynamic in its approach. We work with our Clients from business infancy to growth mode and leverage very heavily on technology and easy-to – use templates (with guidance notes), to give you more ease, in terms of cost and timelines.',
             open:false
         },
         {
@@ -26,7 +26,7 @@ function Faqs(index) {
         },
         {
             question:"How are Clients billed, at Evernall – What if I cannot afford the Services? ",
-            answer:"Evernall’s prices are arguable the lowest in this terrain, considering the expertise and quality of work put into the job. Billing is done per job and not on an hourly or day-rate basis. ",
+            answer:"Evernall’s prices are arguably the lowest in this terrain, considering the expertise and quality of work put into the job. Billing is done per job and not on an hourly or day-rate basis. ",
             answer1:"Payments for retainership or packages can be made in instalments too.",
             open:false
         },

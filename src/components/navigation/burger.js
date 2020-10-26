@@ -50,7 +50,7 @@ const Burger = () => {
                     <span className="small-device-icon-dropdown"><FaFacebookF /></span>
                         </NavLink>
                         <div className="dropdown-content">
-                            <NavLink to="/about/whyuseus" className=" service-dropdown afirst ">Our Team</NavLink>
+                            <NavLink to="/about/ourteam" className=" service-dropdown afirst ">Our Team</NavLink>
                             <NavLink to="/about/testimonial" className=" service-dropdown">Testimonial</NavLink>
                         </div>
                         

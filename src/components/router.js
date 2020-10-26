@@ -41,7 +41,7 @@ const Router = ()=>(
         <Route exact path='/service/general-business-legal-support' component={Businesslegal} />
 
         {/* route for aboutpage */}
-        <Route exact path ='/about/whyuseus' component={Whyuseus} />
+        <Route exact path ='/about/ourteam' component={Whyuseus} />
         <Route exact path ='/about/testimonial' component={Testimonial} />
 
         {/* footer palava */}

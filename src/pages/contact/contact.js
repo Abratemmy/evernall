@@ -118,42 +118,45 @@ export class Contact extends Component {
                                 <div className="container">
                                     <h3 className="contact-form-title">Got a question? Give us a call or contact us below</h3>
  {/* Begin Mailchimp Signup Form  */}
+
+
+{/* <style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	
+</style> */}
 <div id="mc_embed_signup">
-<form action="https://evernall.us17.list-manage.com/subscribe/post?u=07afcc7e8c92a0f938b253227&amp;id=da06903817" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate"  >
+<form action="https://evernall.us17.list-manage.com/subscribe/post?u=07afcc7e8c92a0f938b253227&amp;id=da06903817" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" >
     <div id="mc_embed_signup_scroll">
-	<h2>Got a question? Give us a call or contact us below</h2>
-<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
-<div className="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span className="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" />
-</div>
-<div className="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" className="" id="mce-FNAME"/>
-</div>
-<div className="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" className="" id="mce-LNAME"/>
-</div>
-<div className="mc-field-group size1of2">
-	<label for="mce-BIRTHDAY-month">Birthday  <span className="asterisk">*</span>
-</label>
-	<div class="datefield">
-		<span className="subfield monthfield"><input className="birthday required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"/></span> / 
-		<span className="subfield dayfield"><input className="birthday required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"/></span> 
-		<span className="small-meta nowrap">( mm / dd )</span>
-	</div>
-</div>	<div id="mce-responses" className="clear">
-		<div className="response" id="mce-error-response" style={{display:'none'}}></div>
-		<div className="response" id="mce-success-response" style={{display:'none'}}></div>
-	</div>   
-     {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-    <div style={{position: 'absolute', left: '-5000px', ariaHidden:'true'}}><input type="text" name="b_07afcc7e8c92a0f938b253227_da06903817" tabindex="-1" value=""/></div>
-    <div className="clear"><input type="submit" value="Subscribe" name="submit" id="mc-embedded-subscribe" class="button"/></div>
+        <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+            <div className="mc-field-group">
+                <label htmlFor="mce-EMAIL">Email Address  <span className="asterisk">*</span></label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div className="mc-field-group">
+                <label htmlFor="mce-FNAME">First Name </label>
+                <input type="text" value="" name="FNAME" className="" id="mce-FNAME"/>
+            </div>
+            <div className="mc-field-group">
+                <label htmlFor="mce-LNAME">Last Name </label>
+                <input type="text" value="" name="LNAME" className="" id="mce-LNAME" />
+            </div>
+            <input type="text" rules="required|max:255" name="phone"placeholder=" Phone Number"  className="inputfield"/>
+            <div id="mce-responses" className="clear">
+                <div className="response" id="mce-error-response" style={{display:'none'}}></div>
+                <div className="response" id="mce-success-response" style={{display:'none'}}></div>
+            </div>    
+            <div style={{position: 'absolute', left: '-5000px', ariaHidden:"true"}}><input type="text" name="b_07afcc7e8c92a0f938b253227_da06903817" tabindex="-1" value="" /></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
     </div>
 </form>
 </div>
+
+{/* <!--End mc_embed_signup--> */}
+
+
+
+
+
 
 {/* <!--End mc_embed_signup--> */}
                                     {/* <form> */}
