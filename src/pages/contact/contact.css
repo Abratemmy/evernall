@@ -132,3 +132,9 @@
 .google-map{
     box-shadow:3px 3px 3px 3px #ccc;
 }
+.contacttext-area{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 10px;
+}

@@ -36,8 +36,11 @@ export class Contact extends Component {
             this.captchaDemo.reset();
         }
    }
+   
     render() {
        
+
+      
         const MapWithAMarker = withScriptjs(withGoogleMap(props =>
             <GoogleMap
               defaultZoom={15}
@@ -120,33 +123,33 @@ export class Contact extends Component {
  {/* Begin Mailchimp Signup Form  */}
 
 
-{/* <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	
-</style> */}
 <div id="mc_embed_signup">
-<form action="https://evernall.us17.list-manage.com/subscribe/post?u=07afcc7e8c92a0f938b253227&amp;id=da06903817" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" >
+<form action="https://evernall.us17.list-manage.com/subscribe/post?u=07afcc7e8c92a0f938b253227&amp;id=da06903817" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
     <div id="mc_embed_signup_scroll">
         <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
-            <div className="mc-field-group">
+            <div class="mc-field-group">
                 <label htmlFor="mce-EMAIL">Email Address  <span className="asterisk">*</span></label>
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+                <input type="email"  name="EMAIL" className="required email" id="mce-EMAIL" />
             </div>
-            <div className="mc-field-group">
+            <div class="mc-field-group">
                 <label htmlFor="mce-FNAME">First Name </label>
-                <input type="text" value="" name="FNAME" className="" id="mce-FNAME"/>
+                <input type="text" name="FNAME" className="" id="mce-FNAME"/>
             </div>
             <div className="mc-field-group">
                 <label htmlFor="mce-LNAME">Last Name </label>
-                <input type="text" value="" name="LNAME" className="" id="mce-LNAME" />
+                <input type="text"  name="LNAME" className="" id="mce-LNAME" />
             </div>
-            <input type="text" rules="required|max:255" name="phone"placeholder=" Phone Number"  className="inputfield"/>
+            <div className="mc-field-group">
+                <label htmlFor="mce-MMERGE3">Message</label>
+                <textarea type="text"  name="MMERGE3" className="contacttext-area" id="mce-MMERGE3"></textarea>
+            </div>
+
             <div id="mce-responses" className="clear">
                 <div className="response" id="mce-error-response" style={{display:'none'}}></div>
                 <div className="response" id="mce-success-response" style={{display:'none'}}></div>
             </div>    
             <div style={{position: 'absolute', left: '-5000px', ariaHidden:"true"}}><input type="text" name="b_07afcc7e8c92a0f938b253227_da06903817" tabindex="-1" value="" /></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+            <div className="clear"><input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" className="button" /></div>
     </div>
 </form>
 </div>
@@ -239,8 +242,11 @@ export class Contact extends Component {
                     </div>
                 </div>
             </div>
+            
         )
+        
     }
+    
 }
 
 export default Contact
