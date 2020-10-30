@@ -23,7 +23,7 @@ import Disclamer from './footerpolicy/disclamer.js';
 
 const Router = ()=>(
     <Switch>
-        <Route exact path = '/evernall' component = {Home1} />
+        <Route exact path = '/' component = {Home1} />
         <Route exact path = '/home' component = {Home} />
         <Route exact path ='/about' component={About} />
         <Route exact path ='/service' component={Service} />
