@@ -58,7 +58,7 @@ export class Contact extends Component {
           ));
 
         return (
-            <div>
+            <div className="" style={{overflow:"hidden"}}>
                <Otherpagesbg title="Contact Us" />
                 <div className="contact-banner container">
                     <div className="row">
