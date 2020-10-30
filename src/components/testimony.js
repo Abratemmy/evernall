@@ -81,9 +81,9 @@ export class Testimony extends Component {
                             <Slider ref={c=> (this.slider = c)} {...testimony} className="Slider slider-whatClientsays" >
                                 {testimonial.map(testimony=>{
                                     return(
-                                        <div className="" key={testimony.id}>
-                                                <p className="">{testimony.thanksgiving}</p>
-                                                <p className="">{testimony.testimony_details}</p>
+                                        <div className="" key={testimony.id} style={{color:'white'}}>
+                                                <p className="" style={{color:'rgb(226, 225, 225)'}}>{testimony.thanksgiving}</p>
+                                                <p className=""style={{color:'rgb(226, 225, 225)'}}>{testimony.testimony_details}</p>
                                                 <div className="name">{testimony.names}</div>
                                                 <div className="job">{testimony.job}</div>
                                         </div>
