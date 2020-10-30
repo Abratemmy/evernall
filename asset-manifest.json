@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/evernall/static/css/main.b3a65920.chunk.css",
-    "main.js": "/evernall/static/js/main.a260c749.chunk.js",
-    "main.js.map": "/evernall/static/js/main.a260c749.chunk.js.map",
+    "main.css": "/evernall/static/css/main.39ca0041.chunk.css",
+    "main.js": "/evernall/static/js/main.2ce844ca.chunk.js",
+    "main.js.map": "/evernall/static/js/main.2ce844ca.chunk.js.map",
     "runtime-main.js": "/evernall/static/js/runtime-main.cbd964ee.js",
     "runtime-main.js.map": "/evernall/static/js/runtime-main.cbd964ee.js.map",
     "static/css/2.21ec6bd1.chunk.css": "/evernall/static/css/2.21ec6bd1.chunk.css",
-    "static/js/2.f5a9d70a.chunk.js": "/evernall/static/js/2.f5a9d70a.chunk.js",
-    "static/js/2.f5a9d70a.chunk.js.map": "/evernall/static/js/2.f5a9d70a.chunk.js.map",
+    "static/js/2.fb08c4a8.chunk.js": "/evernall/static/js/2.fb08c4a8.chunk.js",
+    "static/js/2.fb08c4a8.chunk.js.map": "/evernall/static/js/2.fb08c4a8.chunk.js.map",
     "index.html": "/evernall/index.html",
-    "precache-manifest.aaefccf13fbd2fbd8ed987456333e101.js": "/evernall/precache-manifest.aaefccf13fbd2fbd8ed987456333e101.js",
+    "precache-manifest.ff46f842870f4af06b628eb5b384370e.js": "/evernall/precache-manifest.ff46f842870f4af06b628eb5b384370e.js",
     "service-worker.js": "/evernall/service-worker.js",
     "static/css/2.21ec6bd1.chunk.css.map": "/evernall/static/css/2.21ec6bd1.chunk.css.map",
-    "static/css/main.b3a65920.chunk.css.map": "/evernall/static/css/main.b3a65920.chunk.css.map",
-    "static/js/2.f5a9d70a.chunk.js.LICENSE.txt": "/evernall/static/js/2.f5a9d70a.chunk.js.LICENSE.txt",
+    "static/css/main.39ca0041.chunk.css.map": "/evernall/static/css/main.39ca0041.chunk.css.map",
+    "static/js/2.fb08c4a8.chunk.js.LICENSE.txt": "/evernall/static/js/2.fb08c4a8.chunk.js.LICENSE.txt",
     "static/media/faq.css": "/evernall/static/media/arrows.bf610f5e.PNG",
     "static/media/image-1.PNG": "/evernall/static/media/image-1.0a852183.PNG",
     "static/media/image-2.PNG": "/evernall/static/media/image-2.e06e59f7.PNG",
     "static/media/image-3.jpg": "/evernall/static/media/image-3.a110f746.jpg",
     "static/media/image-4.jpg": "/evernall/static/media/image-4.85fd79bb.jpg",
     "static/media/image-5.jpg": "/evernall/static/media/image-5.fca8ce9c.jpg",
-    "static/media/slick-theme.css": "/evernall/static/media/slick.f97e3bbf.svg"
+    "static/media/slick-theme.css": "/evernall/static/media/slick.f97e3bbf.svg",
+    "static/media/unwanna.PNG": "/evernall/static/media/unwanna.b21431c2.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.cbd964ee.js",
     "static/css/2.21ec6bd1.chunk.css",
-    "static/js/2.f5a9d70a.chunk.js",
-    "static/css/main.b3a65920.chunk.css",
-    "static/js/main.a260c749.chunk.js"
+    "static/js/2.fb08c4a8.chunk.js",
+    "static/css/main.39ca0041.chunk.css",
+    "static/js/main.2ce844ca.chunk.js"
   ]
 }
